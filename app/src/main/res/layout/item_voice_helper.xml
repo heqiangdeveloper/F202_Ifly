@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ll_item"
+        android:layout_width="290px"
+        android:layout_height="340px"
+        android:layout_marginLeft="20px"
+        android:background="@drawable/voice_help"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView android:id="@+id/tv_function_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20px"
+            android:layout_marginBottom="46px"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="#00a1ff"
+            android:layout_marginLeft="-10px"
+            android:text=""
+            android:textSize="32px" />
+
+        <TextView android:id="@+id/tv_action_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="24px" />
+
+        <TextView android:id="@+id/tv_action_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24px"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="24px" />
+
+        <TextView android:id="@+id/tv_action_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24px"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="24px" />
+
+        <TextView android:id="@+id/tv_action_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24px"
+            android:text=""
+            android:textColor="@color/white"
+            android:layout_marginBottom="46px"
+            android:textSize="24px" />
+    </LinearLayout>

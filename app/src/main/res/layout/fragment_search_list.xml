@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="1376px"
+    android:layout_height="match_parent"
+    tools:context=".FullScreenActivity">
+
+    <RelativeLayout
+        android:id="@+id/layout_travel_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="58px"
+        android:layout_marginTop="160px"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tv_travel_origin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="58px"
+            android:text="重庆"
+            android:textColor="#00a1ff"
+            android:textSize="36px" />
+
+        <ImageView
+            android:id="@+id/iv_travel_tool"
+            android:layout_width="85px"
+            android:layout_height="42px"
+            android:layout_alignBottom="@id/tv_travel_origin"
+            android:layout_marginLeft="64px"
+            android:layout_toRightOf="@id/tv_travel_origin"
+            android:src="@drawable/ic_plane" />
+
+        <TextView
+            android:id="@+id/tv_travel_dest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="64px"
+            android:layout_toRightOf="@id/iv_travel_tool"
+            android:text="北京"
+            android:textColor="#00a1ff"
+            android:textSize="36px" />
+
+        <TextView
+            android:id="@+id/tv_travel_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="160px"
+            android:text="12月30日 周五"
+            android:textColor="@color/white"
+            android:textSize="28px" />
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/list_recycler_view"
+        android:layout_width="1202px"
+        android:layout_height="match_parent"
+        android:layout_marginStart="58px"
+        android:layout_marginEnd="28px"
+        android:layout_marginTop="118px"
+        tools:listitem="@layout/item_searchlist_contact" />
+
+    <com.chinatsp.ifly.view.PageNumIndicator
+        android:id="@+id/pageNumIndicator"
+        android:layout_width="88px"
+        android:layout_height="680px"
+        android:layout_toRightOf="@id/list_recycler_view"
+        android:layout_centerVertical="true"/>
+</RelativeLayout>

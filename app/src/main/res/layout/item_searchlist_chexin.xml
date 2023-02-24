@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="14px"
+    android:background="@drawable/bg_list"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="130px"
+        android:paddingLeft="58px"
+        android:paddingRight="58px">
+
+        <TextView
+            android:id="@+id/tv_contact_number"
+            style="@style/style_text_capital"
+            android:layout_width="40px"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="01" />
+
+        <ImageView
+            android:id="@+id/iv_chexin_portrait"
+            android:layout_width="80px"
+            android:layout_height="80px"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="54px"
+            android:layout_toRightOf="@id/tv_contact_number" />
+
+        <TextView
+            android:id="@+id/tv_chexin_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="40px"
+            android:layout_toRightOf="@id/iv_chexin_portrait"
+            android:layout_centerVertical="true"
+            android:textColor="@color/white"
+            android:textSize="36px" />
+    </RelativeLayout>
+
+</RelativeLayout>

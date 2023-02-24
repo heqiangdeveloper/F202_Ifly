@@ -1,0 +1,49 @@
+{
+  "list": [
+    {
+      "dimension": [
+        {
+          "field": "map",
+          "spword": false,
+          "val": "返回"
+        }
+      ],
+      "id": 310
+    },
+    {
+      "dimension": [
+        {
+          "field": "map",
+          "spword": false,
+          "val": "家"
+        }
+      ],
+      "id": 311
+    },
+    {
+      "dimension": [
+        {
+          "field": "map",
+          "spword": false,
+          "val": "公司"
+        }
+      ],
+      "id": 312
+    },
+    {
+      "dimension": [
+        {
+          "field": "map",
+          "spword": false,
+          "val": "设为集结点"
+        }
+      ],
+      "id": 313
+    }
+  ],
+  "nliFieldSearch": [
+    "semantic.slots.poiName",
+    "semantic.slots.poiName2"
+  ],
+  "type": "poi"
+}

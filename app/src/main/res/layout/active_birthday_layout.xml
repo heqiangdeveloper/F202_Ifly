@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/active_birthday_bg"
+    android:id="@+id/big_window_layout">
+
+    <VideoView
+        android:id="@+id/birthday_video_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/birthday_light"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:src="@drawable/llight2"/>
+    <ImageView
+        android:id="@+id/birthday_letter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/active_birthday__letter"/>
+    <ImageView
+        android:id="@+id/birthday_video_view_prev"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/active_birthday_video_prev"
+        android:scaleType="fitXY"
+        android:visibility="gone"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="actor_names">
+        <item>小欧-甜美自然</item>
+       <!-- <item>嘉嘉-温柔可爱</item>
+        <item>小燕-成熟稳重</item>
+        <item>小峰-成熟稳重</item>
+        <item>楠楠-萌男童</item>
+        <item>小倩-东北话</item>
+        <item>晓蓉-四川话</item>
+        <item>小美-广东话</item>
+        <item>小强-湖南话</item>
+        <item>晓坤-河南话</item>
+        <item>晓琳-台湾普通话</item>
+        <item>小雪-普通话</item>
+        <item>小师-普通话</item>
+        <item>小洁-普通话</item>
+        <item>晓梦-普通话</item>
+        <item>老马-中年男性</item>
+        <item>晓婧-中年女性</item>-->
+    </string-array>
+</resources>

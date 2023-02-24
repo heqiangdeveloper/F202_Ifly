@@ -1,0 +1,183 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".SettingsActivity">
+    <!--欧尚修改开始-->
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="1000px"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="58px"
+                android:layout_marginTop="54px"
+                android:layout_marginBottom="30px"
+                android:text="使用习惯"
+                android:textColor="@color/grey"
+                android:textSize="36px" />
+
+            <View style="@style/DividerWhiteLine" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="110px"
+                android:layout_marginLeft="58px"
+                android:layout_marginRight="58px">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="唤醒后应答语"
+                    android:textColor="@color/white"
+                    android:textSize="36px" />
+
+                <TextView
+                    android:id="@+id/tv_settings_pre_answer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:drawableRight="@drawable/selector_forward_arrow"
+                    android:drawablePadding="52px"
+                    android:enabled="true"
+                    android:text="系统预设"
+                    android:textColor="@color/grey"
+                    android:textSize="36px" />
+            </RelativeLayout>
+
+            <View style="@style/DividerWhiteLine" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="110px"
+                android:layout_marginLeft="58px"
+                android:layout_marginRight="58px">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="唤醒词"
+                    android:textColor="@color/white"
+                    android:textSize="36px" />
+
+                <TextView
+                    android:id="@+id/tv_settings_aware"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:drawableRight="@drawable/selector_forward_arrow"
+                    android:drawablePadding="52px"
+                    android:enabled="true"
+                    android:text="小欧"
+                    android:textColor="@color/grey"
+                    android:textSize="36px" />
+            </RelativeLayout>
+
+            <View style="@style/DividerWhiteLine" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="58px"
+                android:layout_marginTop="56px"
+                android:layout_marginBottom="30px"
+                android:text="智能服务"
+                android:textColor="@color/grey"
+                android:textSize="36px" />
+
+            <View style="@style/DividerWhiteLine" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="110px"
+                android:layout_marginLeft="58px"
+                android:layout_marginRight="58px">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="新手智能引导"
+                    android:textColor="@color/white"
+                    android:textSize="36px" />
+
+                <CheckBox
+                    android:id="@+id/cb_voice_guide"
+                    android:layout_width="140px"
+                    android:layout_height="60px"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/selector_switch_bg"
+                    android:button="@null"
+                    android:checked="false"/>
+            </RelativeLayout>
+
+            <View style="@style/DividerWhiteLine" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="110px"
+                android:layout_marginLeft="58px"
+                android:layout_marginRight="58px">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="智能语音播报"
+                    android:textColor="@color/white"
+                    android:textSize="36px" />
+
+                <CheckBox
+                    android:id="@+id/cb_voice_broadcast"
+                    android:layout_width="140px"
+                    android:layout_height="60px"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/selector_switch_bg"
+                    android:button="@null"
+                    android:checked="false"/>
+            </RelativeLayout>
+
+            <View style="@style/DividerWhiteLine" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="110px"
+                android:layout_marginLeft="58px"
+                android:layout_marginRight="58px">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="边说边识别"
+                    android:textColor="@color/white"
+                    android:textSize="36px" />
+
+                <CheckBox
+                    android:id="@+id/cb_voice_position"
+                    android:layout_width="140px"
+                    android:layout_height="60px"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/selector_switch_bg"
+                    android:button="@null"
+                    android:checked="false"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <include layout="@layout/layout_setting_float_view"/>
+</LinearLayout>

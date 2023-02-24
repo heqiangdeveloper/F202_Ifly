@@ -1,0 +1,34 @@
+{
+  "Keywords": [
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "你好小欧",
+      "KeyWordId": 0
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "小欧你好",
+      "KeyWordId": 1
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "鸟小欧",
+      "KeyWordId": 2
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "小欧鸟",
+      "KeyWordId": 3
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "你好欧尚",
+      "KeyWordId": 4
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "欧尚你好",
+      "KeyWordId": 5
+    }
+  ]
+}

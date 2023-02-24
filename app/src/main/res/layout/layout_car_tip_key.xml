@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/key_tip_bg"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/key_iv"
+        android:layout_width="70px"
+        android:layout_height="70px"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45px" />
+
+    <TextView
+        android:id="@+id/key_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/key_iv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30px"
+        android:includeFontPadding="false"
+        android:textColor="#ffffff"
+        android:textSize="40px" />
+</RelativeLayout>

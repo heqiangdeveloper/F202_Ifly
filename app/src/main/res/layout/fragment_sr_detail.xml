@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_marginTop="34dp"
+        android:orientation="horizontal"
+        android:id="@+id/ll_detail_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:id="@+id/ll_detail_back"
+            android:layout_width="90px"
+            android:layout_height="90px"
+            android:layout_marginLeft="69dp"
+            android:gravity="center"
+            android:visibility="visible"
+            >
+            <ImageView
+                android:clickable="true"
+                android:src="@drawable/selector_command_back"
+                android:id="@+id/iv_detail_back"
+
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/command_content_back"
+            android:textSize="@dimen/textSize36px"
+            android:layout_marginLeft="91px"
+            android:id="@+id/tv_detail_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="137px"
+        android:orientation="horizontal"
+        android:id="@+id/ll_detail_skill"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="117px"
+            android:id="@+id/iv_skill_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/capital_text_color"
+            android:textSize="@dimen/textSize36px"
+            android:layout_marginLeft="20px"
+            android:id="@+id/tv_skill_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:background="@drawable/selector_user"
+            android:textColor="@color/stock_tie_color"
+            android:textSize="@dimen/textSize32px"
+            android:layout_marginLeft="814px"
+            android:text="换一批"
+            android:visibility="invisible"
+            android:id="@+id/btn_skill_other"
+            android:layout_width="180px"
+            android:layout_height="80px"/>
+
+        <Button
+            android:layout_marginLeft="50px"
+            android:background="@drawable/selector_user"
+            android:textColor="@drawable/selector_try_btn"
+            android:textSize="@dimen/textSize32px"
+            android:text="试一试"
+            android:id="@+id/btn_skill_user"
+            android:layout_width="180px"
+            android:layout_height="80px"/>
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_marginLeft="115px"
+        android:layout_marginTop="65px"
+        android:layout_below="@id/ll_detail_skill"
+        android:id="@+id/ry_sr"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</RelativeLayout>

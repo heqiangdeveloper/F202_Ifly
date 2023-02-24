@@ -1,0 +1,69 @@
+{
+  "list": [
+    {
+      "dimension": [
+        {
+          "field": "map",
+          "spword": false,
+          "val": "返回"
+        }
+      ],
+      "id": 370
+    },
+    {
+      "dimension": [
+        {
+          "field": "map",
+          "spword": false,
+          "val": "收藏夹"
+        }
+      ],
+      "id": 371
+    },
+    {
+      "dimension": [
+        {
+          "field": "map",
+          "spword": false,
+          "val": "微信位置"
+        }
+      ],
+      "id": 372
+    },
+    {
+      "dimension": [
+        {
+          "field": "map",
+          "spword": false,
+          "val": "分类检索"
+        }
+      ],
+      "id": 373
+    },
+    {
+      "dimension": [
+        {
+          "field": "map",
+          "spword": false,
+          "val": "地图选点"
+        }
+      ],
+      "id": 374
+    },
+    {
+      "dimension": [
+        {
+          "field": "map",
+          "spword": false,
+          "val": "清空历史记录"
+        }
+      ],
+      "id": 375
+    }
+  ],
+  "nliFieldSearch": [
+    "semantic.slots.poiName",
+    "semantic.slots.poiName2"
+  ],
+  "type": "poi"
+}

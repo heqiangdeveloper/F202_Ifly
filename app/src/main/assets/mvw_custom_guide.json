@@ -1,0 +1,49 @@
+{
+  "Keywords": [
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "小欧我要",
+      "KeyWordId": 0
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "小欧我想",
+      "KeyWordId": 1
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "小欧请帮我",
+      "KeyWordId": 2
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "小欧帮我",
+      "KeyWordId": 3
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "小欧请将",
+      "KeyWordId": 4
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "车头朝上",
+      "KeyWordId": 5
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "正北朝上",
+      "KeyWordId": 6
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "查看全局",
+      "KeyWordId": 7
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "打开空调",
+      "KeyWordId": 8
+    }
+  ]
+}

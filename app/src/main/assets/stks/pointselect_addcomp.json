@@ -1,0 +1,29 @@
+{
+  "list": [
+    {
+      "dimension": [
+        {
+          "field": "map",
+          "spword": false,
+          "val": "返回"
+        }
+      ],
+      "id": 220
+    },
+    {
+      "dimension": [
+        {
+          "field": "map",
+          "spword": false,
+          "val": "设置公司"
+        }
+      ],
+      "id": 221
+    }
+  ],
+  "nliFieldSearch": [
+    "semantic.slots.poiName",
+    "semantic.slots.poiName2"
+  ],
+  "type": "poi"
+}

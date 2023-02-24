@@ -1,0 +1,16 @@
+{
+  "bot_session": "",
+  "log_id": "77585122112221a13111121",
+  "request": {
+    "bernard_level": 1,
+    "query": "姚明有多高",
+    "query_info": {
+      "source": "ASR",
+      "type": "TEXT"
+    },
+    "updates": "",
+    "user_id": "8888118"
+  },
+  "bot_id": "24496",
+  "version": "2.0"
+}

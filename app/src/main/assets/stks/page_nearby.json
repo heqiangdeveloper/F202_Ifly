@@ -1,0 +1,349 @@
+{
+  "list": [
+    {
+      "dimension": [
+        {
+          "field": "map",
+          "spword": false,
+          "val": "返回"
+        }
+      ],
+      "id": 140
+    },
+    {
+      "dimension": [
+        {
+          "field": "map",
+          "spword": false,
+          "val": "加油站"
+        }
+      ],
+      "id": 141
+    },
+    {
+      "dimension": [
+        {
+          "field": "map",
+          "spword": false,
+          "val": "停车场"
+        }
+      ],
+      "id": 142
+    },
+    {
+      "dimension": [
+        {
+          "field": "map",
+          "spword": false,
+          "val": "洗车"
+        }
+      ],
+      "id": 143
+    },
+    {
+      "dimension": [
+        {
+          "field": "map",
+          "spword": false,
+          "val": "公厕"
+        }
+      ],
+      "id": 144
+    },
+    {
+      "dimension": [
+        {
+          "field": "map",
+          "spword": false,
+          "val": "全部"
+        }
+      ],
+      "id": 145
+    },
+    {
+      "dimension": [
+        {
+          "field": "map",
+          "spword": false,
+          "val": "ATM"
+        }
+      ],
+      "id": 146
+    },
+    {
+      "dimension": [
+        {
+          "field": "map",
+          "spword": false,
+          "val": "维修"
+        }
+      ],
+      "id": 147
+    },
+    {
+      "dimension": [
+        {
+          "field": "map",
+          "spword": false,
+          "val": "保养"
+        }
+      ],
+      "id": 148
+    },
+    {
+      "dimension": [
+        {
+          "field": "map",
+          "spword": false,
+          "val": "充电站"
+        }
+      ],
+      "id": 149
+    },
+    {
+      "dimension": [
+        {
+          "field": "map",
+          "spword": false,
+          "val": "中餐"
+        }
+      ],
+      "id": 1400
+    },
+    {
+      "dimension": [
+        {
+          "field": "map",
+          "spword": false,
+          "val": "西餐"
+        }
+      ],
+      "id": 1401
+    },
+    {
+      "dimension": [
+        {
+          "field": "map",
+          "spword": false,
+          "val": "小吃快餐"
+        }
+      ],
+      "id": 1402
+    },
+    {
+      "dimension": [
+        {
+          "field": "map",
+          "spword": false,
+          "val": "火锅"
+        }
+      ],
+      "id": 1403
+    },
+    {
+      "dimension": [
+        {
+          "field": "map",
+          "spword": false,
+          "val": "面包甜点"
+        }
+      ],
+      "id": 1404
+    },
+    {
+      "dimension": [
+        {
+          "field": "map",
+          "spword": false,
+          "val": "酒店宾馆"
+        }
+      ],
+      "id": 1405
+    },
+    {
+      "dimension": [
+        {
+          "field": "map",
+          "spword": false,
+          "val": "电影院"
+        }
+      ],
+      "id": 1406
+    },
+    {
+      "dimension": [
+        {
+          "field": "map",
+          "spword": false,
+          "val": "咖啡厅"
+        }
+      ],
+      "id": 1407
+    },
+    {
+      "dimension": [
+        {
+          "field": "map",
+          "spword": false,
+          "val": "服务区"
+        }
+      ],
+      "id": 1408
+    },
+    {
+      "dimension": [
+        {
+          "field": "map",
+          "spword": false,
+          "val": "收费站"
+        }
+      ],
+      "id": 1409
+    },
+    {
+      "dimension": [
+        {
+          "field": "map",
+          "spword": false,
+          "val": "便利店"
+        }
+      ],
+      "id": 1410
+    },
+    {
+      "dimension": [
+        {
+          "field": "map",
+          "spword": false,
+          "val": "公交站"
+        }
+      ],
+      "id": 1411
+    },
+    {
+      "dimension": [
+        {
+          "field": "map",
+          "spword": false,
+          "val": "医院"
+        }
+      ],
+      "id": 1412
+    },
+    {
+      "dimension": [
+        {
+          "field": "map",
+          "spword": false,
+          "val": "银行"
+        }
+      ],
+      "id": 1413
+    },
+    {
+      "dimension": [
+        {
+          "field": "map",
+          "spword": false,
+          "val": "超市"
+        }
+      ],
+      "id": 1414
+    },
+    {
+      "dimension": [
+        {
+          "field": "map",
+          "spword": false,
+          "val": "药店"
+        }
+      ],
+      "id": 1415
+    },
+    {
+      "dimension": [
+        {
+          "field": "map",
+          "spword": false,
+          "val": "药店"
+        }
+      ],
+      "id": 1416
+    },
+    {
+      "dimension": [
+        {
+          "field": "map",
+          "spword": false,
+          "val": "网吧"
+        }
+      ],
+      "id": 1417
+    },
+    {
+      "dimension": [
+        {
+          "field": "map",
+          "spword": false,
+          "val": "地铁店"
+        }
+      ],
+      "id": 1418
+    },
+    {
+      "dimension": [
+        {
+          "field": "map",
+          "spword": false,
+          "val": "酒吧"
+        }
+      ],
+      "id": 1419
+    },
+    {
+      "dimension": [
+        {
+          "field": "map",
+          "spword": false,
+          "val": "KTV"
+        }
+      ],
+      "id": 1420
+    },
+    {
+      "dimension": [
+        {
+          "field": "map",
+          "spword": false,
+          "val": "青年旅社"
+        }
+      ],
+      "id": 1421
+    },
+    {
+      "dimension": [
+        {
+          "field": "map",
+          "spword": false,
+          "val": "美容美发"
+        }
+      ],
+      "id": 1422
+    },
+    {
+      "dimension": [
+        {
+          "field": "map",
+          "spword": false,
+          "val": "星级酒店"
+        }
+      ],
+      "id": 1423
+    }
+  ],
+  "nliFieldSearch": [
+    "semantic.slots.poiName",
+    "semantic.slots.poiName2"
+  ],
+  "type": "poi"
+}

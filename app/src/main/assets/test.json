@@ -1,0 +1,207 @@
+{
+  "UserData": {
+    "mapU::navi": {
+      "activeStatus": "bg",
+      "data": {
+        "dataInfo": {
+          "avoid_poi": {},
+          "end_poi": {
+            "address": "金寨路96号",
+            "category": "学校;科教文化服务;高等院校",
+            "city": "合肥市",
+            "distance": "1050152.0",
+            "latitude": "31.836842",
+            "longitude": "117.269587",
+            "name": "中国科学技术大学东校区",
+            "phone": "0551-63602184",
+            "poiType": "endLoc",
+            "source_category": "gaode_poi"
+          },
+          "reference_poi": {},
+          "start_poi": {},
+          "via_poi": {}
+        }
+      },
+      "sceneStatus": "navigation"
+    },
+    "mapU::poiSearch": {
+      "activeStatus": "fg",
+      "data": {
+        "dataInfo": {
+          "avoid_poi": {},
+          "end_poi": {
+            "address": "太湖路111号",
+            "city": "合肥市",
+            "distance": "503.0",
+            "latitude": "31.832757",
+            "longitude": "117.268166",
+            "name": "瀚海星座(外围)地面停车场",
+            "poiType": "endLoc",
+            "source_category": "parking"
+          },
+          "reference_poi": {},
+          "start_poi": {},
+          "via_poi": {}
+        },
+        "dataList": {
+          "result": [
+            {
+              "address": "太湖路111号",
+              "building": "瀚海星座(外围)",
+              "city": "合肥市",
+              "closeTime": "00:00",
+              "distance": "503.0",
+              "entranceCoordinateAmap": "117.268166,31.832757",
+              "exitusCoordinatesAmap": "117.269483,31.832611",
+              "feeText": "首3小时内5元/次 3-8小时10元/次 20元/天",
+              "feeTextWeekend": null,
+              "id": "dYIB1oOy",
+              "latitude": "31.832757",
+              "longitude": "117.268166",
+              "mainRoad": "太湖路",
+              "name": "瀚海星座(外围)地面停车场",
+              "openName": "00:00",
+              "openTime": "00:00",
+              "photoBuilding": "",
+              "photoEntrance": "http://pic.ezparking.com.cn/rtpi-service/parking?key=kdxf3e9wlsdsx2pdwe7wwl7r4pgkdzxm&amp;type=photo&amp;id=dYIB1oOy&amp;file=entrance_1v5IKYP2.jpg",
+              "poiType": "endLoc",
+              "province": "安徽省",
+              "serveId": null,
+              "shapeName": "平面",
+              "source_category": "parking",
+              "status": "忙",
+              "totalPlaces": "75"
+            },
+            {
+              "address": "金寨路96号",
+              "building": "中国科学技术大学东校区",
+              "city": "合肥市",
+              "closeTime": "00:00",
+              "distance": "520.0",
+              "entranceCoordinateAmap": "117.270108,31.841672",
+              "exitusCoordinatesAmap": "117.270108,31.841672",
+              "feeText": "选择性对外访客免费停放",
+              "feeTextWeekend": null,
+              "id": "3JCtBHMf",
+              "latitude": "31.841672",
+              "longitude": "117.270108",
+              "mainRoad": "黄山路",
+              "name": "中国科学技术大学东校区地面停车场",
+              "openName": "00:00",
+              "openTime": "00:00",
+              "photoBuilding": "",
+              "photoEntrance": "http://pic.ezparking.com.cn/rtpi-service/parking?key=kdxf3e9wlsdsx2pdwe7wwl7r4pgkdzxm&amp;type=photo&amp;id=3JCtBHMf&amp;file=entrance_yub34cHs.jpg",
+              "poiType": "endLoc",
+              "province": "安徽省",
+              "serveId": null,
+              "shapeName": "平面",
+              "source_category": "parking",
+              "status": "忙",
+              "totalPlaces": "314"
+            },
+            {
+              "address": "金寨路71号",
+              "building": "美第阳光大厦",
+              "city": "合肥市",
+              "closeTime": "00:00",
+              "distance": "522.0",
+              "entranceCoordinateAmap": "117.264977,31.835048",
+              "exitusCoordinatesAmap": "117.264977,31.835048",
+              "feeText": "免费停放",
+              "feeTextWeekend": null,
+              "id": "64oVsdQo",
+              "latitude": "31.835048",
+              "longitude": "117.264977",
+              "mainRoad": "金寨路",
+              "name": "美第阳光大厦沿街停车场",
+              "openName": "00:00",
+              "openTime": "00:00",
+              "photoBuilding": "",
+              "photoEntrance": "http://pic.ezparking.com.cn/rtpi-service/parking?key=kdxf3e9wlsdsx2pdwe7wwl7r4pgkdzxm&amp;type=photo&amp;id=64oVsdQo&amp;file=entrance_xYt3vBYK.jpg",
+              "poiType": "endLoc",
+              "province": "安徽省",
+              "serveId": null,
+              "shapeName": "平面",
+              "source_category": "parking",
+              "status": "",
+              "totalPlaces": "19"
+            },
+            {
+              "address": "金寨路71号",
+              "building": "美第阳光大厦",
+              "city": "合肥市",
+              "closeTime": "00:00",
+              "distance": "524.0",
+              "entranceCoordinateAmap": "117.264966,31.835039",
+              "exitusCoordinatesAmap": "117.264966,31.835039",
+              "feeText": "选择性对外访客免费停放",
+              "feeTextWeekend": null,
+              "id": "R8lpnPDX",
+              "latitude": "31.835039",
+              "longitude": "117.264966",
+              "mainRoad": "金寨路",
+              "name": "美第阳光大厦地面停车场",
+              "openName": "00:00",
+              "openTime": "00:00",
+              "photoBuilding": "",
+              "photoEntrance": "http://pic.ezparking.com.cn/rtpi-service/parking?key=kdxf3e9wlsdsx2pdwe7wwl7r4pgkdzxm&amp;type=photo&amp;id=R8lpnPDX&amp;file=entrance_J3hOzkgr.jpg",
+              "poiType": "endLoc",
+              "province": "安徽省",
+              "serveId": null,
+              "shapeName": "平面",
+              "source_category": "parking",
+              "status": "忙",
+              "totalPlaces": "44"
+            },
+            {
+              "address": "金寨路161号",
+              "building": "新瑞祺大厦",
+              "city": "合肥市",
+              "closeTime": "00:00",
+              "distance": "552.0",
+              "entranceCoordinateAmap": "117.267809,31.841594",
+              "exitusCoordinatesAmap": "117.267809,31.841594",
+              "feeText": "5元/2小时",
+              "feeTextWeekend": null,
+              "id": "EGHiNZLD",
+              "latitude": "31.841594",
+              "longitude": "117.267809",
+              "mainRoad": "黄山路",
+              "name": "新瑞祺大厦地面停车场",
+              "openName": "00:00",
+              "openTime": "00:00",
+              "photoBuilding": "",
+              "photoEntrance": "http://pic.ezparking.com.cn/rtpi-service/parking?key=kdxf3e9wlsdsx2pdwe7wwl7r4pgkdzxm&amp;type=photo&amp;id=EGHiNZLD&amp;file=entrance_6MbhW1hj.jpg",
+              "poiType": "endLoc",
+              "province": "安徽省",
+              "serveId": null,
+              "shapeName": "平面",
+              "source_category": "parking",
+              "status": "忙",
+              "totalPlaces": "15"
+            }
+          ],
+          "semantic": {
+            "slots": {
+              "endLoc": {
+                "ori_loc": "停车场",
+                "topic": "parking"
+              },
+              "landmark": {
+                "latitude": "31.836842",
+                "longitude": "117.269587",
+                "ori_loc": "中国科学技术大学东校区"
+              },
+              "match_data_pos": "0_1_2_3_4",
+              "startLoc": {
+                "ori_loc": "CURRENT_ORI_LOC"
+              }
+            }
+          }
+        }
+      },
+      "sceneStatus": "moreTarget",
+      "selectStatus": "endLoc"
+    }
+  }
+}

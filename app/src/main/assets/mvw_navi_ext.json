@@ -1,0 +1,24 @@
+{
+  "Keywords": [
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "还有多久到",
+      "KeyWordId": 1
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "还有多远到",
+      "KeyWordId": 2
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "查看全局线路",
+      "KeyWordId": 3
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "查看全局路线",
+      "KeyWordId": 4
+    }
+  ]
+}

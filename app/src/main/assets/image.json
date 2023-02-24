@@ -1,0 +1,105 @@
+{
+  "Keywords": [
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "看前面",
+      "KeyWordId": 0
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "看前边",
+      "KeyWordId": 1
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "看后面",
+      "KeyWordId": 2
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "看后边",
+      "KeyWordId": 3
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "看左面",
+      "KeyWordId": 4
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "看左边",
+      "KeyWordId": 5
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "看右面",
+      "KeyWordId": 6
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "看右边",
+      "KeyWordId": 7
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "看左右",
+      "KeyWordId": 8
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "向前看",
+      "KeyWordId": 9
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "朝前看",
+      "KeyWordId": 10
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "向后看",
+      "KeyWordId": 11
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "朝后看",
+      "KeyWordId": 12
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "向左看",
+      "KeyWordId": 13
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "朝左看",
+      "KeyWordId": 14
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "向右看",
+      "KeyWordId": 15
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "朝右看",
+      "KeyWordId": 16
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "看四周",
+      "KeyWordId": 17
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "组合视图",
+      "KeyWordId": 18
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "看左右",
+      "KeyWordId": 19
+    }
+
+  ]
+}

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="630px"
+    android:layout_height="296px"
+    >
+    <FrameLayout
+        android:layout_width="630px"
+        android:layout_height="296px"
+        android:background="@drawable/tanchuang_kuang">
+        <TextView
+            android:id="@+id/tv_relief_instrutment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="52px"
+            android:paddingTop="37px"
+            android:paddingRight="52px"
+            android:text="@string/detail_relief"
+            android:textColor="@color/floatview_day_white"
+            android:textSize="@dimen/textSize28px" />
+
+        <LinearLayout
+            android:id="@+id/ll_select_shown"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_relief_instrutment"
+            android:layout_marginLeft="52px"
+            android:layout_marginTop="134px">
+
+            <CheckBox
+                android:layout_gravity="center_vertical"
+                android:id="@+id/ck_relief"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_relief_instrutment"
+                android:button="@drawable/selector_not_shown" />
+
+            <TextView
+                android:textColor="@color/floatview_day_white"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="15px"
+                android:textSize="@dimen/textSize28px"
+                android:id="@+id/tv_not_shown"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_relief_instrutment"
+                android:layout_toRightOf="@id/ck_relief"
+                android:text="@string/detail_notshown" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="630px"
+            android:layout_height="101px"
+            android:layout_gravity="bottom"
+            android:orientation="vertical"
+            >
+            <ImageView
+                android:id="@+id/iv_line"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/tanchuang_line_h" />
+
+            <LinearLayout
+                android:id="@+id/ll_select"
+                android:layout_width="630px"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_relief_sure"
+                    android:layout_width="314px"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/selector_sure"
+                    android:gravity="center"
+                    android:text="@string/detail_sure"
+                    android:textColor="@drawable/dialog_butoon_color"
+                    android:textSize="@dimen/textSize36px" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/tanchuang_line_s" />
+
+                <Button
+
+                    android:id="@+id/btn_relief_cancel"
+                    android:layout_width="315px"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/selector_cancel"
+                    android:gravity="center"
+                    android:text="@string/detail_cancel"
+                    android:textColor="@drawable/dialog_butoon_color"
+                    android:textSize="@dimen/textSize36px" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</FrameLayout>

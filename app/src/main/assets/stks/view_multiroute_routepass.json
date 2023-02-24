@@ -1,0 +1,39 @@
+{
+  "list": [
+    {
+      "dimension": [
+        {
+          "field": "map",
+          "spword": false,
+          "val": "返回"
+        }
+      ],
+      "id": 130
+    },
+    {
+      "dimension": [
+        {
+          "field": "map",
+          "spword": false,
+          "val": "添加途经地"
+        }
+      ],
+      "id": 131
+    },
+	{
+      "dimension": [
+        {
+          "field": "map",
+          "spword": false,
+          "val": "开始导航"
+        }
+      ],
+      "id": 132
+    }
+  ],
+  "nliFieldSearch": [
+    "semantic.slots.poiName",
+    "semantic.slots.poiName2"
+  ],
+  "type": "poi"
+}

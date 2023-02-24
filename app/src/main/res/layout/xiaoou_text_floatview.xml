@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/xiaoou_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="小欧通知文案"
+        android:textSize="36sp"
+        android:gravity="center"
+        android:singleLine="true"
+        android:background="@drawable/ic_bg_text_press"
+        />
+
+</FrameLayout>

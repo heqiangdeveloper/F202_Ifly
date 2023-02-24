@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <!-- 定义一个动画帧，Drawable为img0，持续时间100毫秒 -->
+
+    <item android:drawable="@drawable/greenfire_0037" android:duration="100" />
+    <item android:drawable="@drawable/greenfire_0038" android:duration="100" />
+    <item android:drawable="@drawable/greenfire_0039" android:duration="100" />
+    <item android:drawable="@drawable/greenfire_0040" android:duration="100" />
+    <item android:drawable="@drawable/greenfire_0041" android:duration="100" />
+    <item android:drawable="@drawable/greenfire_0042" android:duration="100" />
+    <item android:drawable="@drawable/greenfire_0043" android:duration="100" />
+    <item android:drawable="@drawable/greenfire_0044" android:duration="100" />
+    <item android:drawable="@drawable/greenfire_0045" android:duration="100" />
+    <item android:drawable="@drawable/greenfire_0046" android:duration="100" />
+    <item android:drawable="@drawable/greenfire_0047" android:duration="100" />
+    <item android:drawable="@drawable/greenfire_0048" android:duration="100" />
+    <item android:drawable="@drawable/greenfire_0049" android:duration="100" />
+    <item android:drawable="@drawable/greenfire_0050" android:duration="100" />
+    <item android:drawable="@drawable/greenfire_0051" android:duration="100" />
+    <item android:drawable="@drawable/greenfire_0052" android:duration="100" />
+    <item android:drawable="@drawable/greenfire_0053" android:duration="100" />
+    <item android:drawable="@drawable/greenfire_0054" android:duration="100" />
+    <item android:drawable="@drawable/greenfire_0055" android:duration="100" />
+    <item android:drawable="@drawable/greenfire_0056" android:duration="100" />
+    <item android:drawable="@drawable/greenfire_0057" android:duration="100" />
+    <item android:drawable="@drawable/greenfire_0058" android:duration="100" />
+    <item android:drawable="@drawable/greenfire_0059" android:duration="100" />
+    <item android:drawable="@drawable/greenfire_0060" android:duration="100" />
+    <item android:drawable="@drawable/greenfire_0061" android:duration="100" />
+    <item android:drawable="@drawable/greenfire_0062" android:duration="100" />
+    <item android:drawable="@drawable/greenfire_0063" android:duration="100" />
+    <item android:drawable="@drawable/greenfire_0064" android:duration="100" />
+    <item android:drawable="@drawable/greenfire_0065" android:duration="100" />
+    <item android:drawable="@drawable/greenfire_0066" android:duration="100" />
+    <item android:drawable="@drawable/greenfire_0067" android:duration="100" />
+
+</animation-list>

@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="14px"
+    android:background="@drawable/bg_list"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="130px"
+        android:paddingLeft="58px"
+        android:paddingRight="58px">
+
+        <TextView
+            android:id="@+id/tv_contact_number"
+            style="@style/style_text_capital"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="01" />
+
+        <TextView
+            android:id="@+id/tv_contact_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="64px"
+            android:layout_toRightOf="@id/tv_poi_number"
+            android:text="李丽"
+            android:textColor="@color/white"
+            android:textSize="36px" />
+
+        <TextView
+            android:id="@+id/tv_contact_telephone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:text="13049372767"
+            android:textColor="#999999"
+            android:textSize="36px" />
+    </RelativeLayout>
+
+</RelativeLayout>

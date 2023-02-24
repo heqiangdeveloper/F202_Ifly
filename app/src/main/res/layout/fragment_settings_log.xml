@@ -1,0 +1,129 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".SettingsActivity">
+
+    <LinearLayout
+        android:layout_width="1000px"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="54px"
+            android:layout_marginBottom="30px"
+            android:text="日志"
+            android:textColor="@color/grey"
+            android:textSize="36px" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="110px"
+            android:layout_marginLeft="58px"
+            android:layout_marginRight="58px">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="语音日志"
+                android:textColor="@color/white"
+                android:textSize="36px" />
+
+            <CheckBox
+                android:id="@+id/cb_voice_guide"
+                android:layout_width="140px"
+                android:layout_height="60px"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/selector_switch_bg"
+                android:button="@null"
+                android:checked="false"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="50px"
+            android:layout_marginBottom="50px">
+
+           <LinearLayout
+               android:orientation="vertical"
+               android:layout_alignParentStart="true"
+               android:layout_width="wrap_content"
+               android:layout_height="match_parent"
+               android:gravity="bottom">
+               <TextView
+                   android:id="@+id/tv_version_code"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_below="@id/clear_edittext"
+                   android:layout_marginTop="18px"
+                   android:lineSpacingExtra="6px"
+                   android:paddingLeft="6px"
+                   android:text="版本号： 1"
+                   android:textColor="#999999"
+                   android:textSize="36px" />
+               <TextView
+                   android:id="@+id/tv_version_name"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_below="@id/clear_edittext"
+                   android:layout_marginTop="18px"
+                   android:lineSpacingExtra="6px"
+                   android:paddingLeft="6px"
+                   android:text="版本号名称：v1"
+                   android:textColor="#999999"
+                   android:textSize="36px" />
+               <TextView
+                   android:id="@+id/tv_ifly_version"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_below="@id/clear_edittext"
+                   android:layout_marginTop="18px"
+                   android:lineSpacingExtra="6px"
+                   android:paddingLeft="6px"
+                   android:text="语音资源版本：2.2"
+                   android:textColor="#999999"
+                   android:textSize="36px" />
+           </LinearLayout>
+
+            <LinearLayout
+                android:layout_alignParentEnd="true"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="bottom"
+                android:layout_marginRight="58px">
+                <Button
+                    android:id="@+id/btn_aware_confirm"
+                    android:layout_width="300px"
+                    android:layout_height="80px"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/shape_bg_button_blue"
+                    android:text="保存日志到U盘"
+                    android:textColor="@drawable/selector_ttt"
+                    android:textSize="36px" />
+
+                <Button
+                    android:id="@+id/btn_aware_cancel"
+                    android:layout_width="220px"
+                    android:layout_height="80px"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="62px"
+                    android:layout_toRightOf="@id/btn_aware_confirm"
+                    android:background="@drawable/shape_bg_button_translucent"
+                    android:text="清空日志"
+                    android:textColor="@color/white_fixed"
+                    android:textSize="36px" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

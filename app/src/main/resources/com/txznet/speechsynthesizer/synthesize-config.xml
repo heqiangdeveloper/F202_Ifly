@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><!-- 生效时间说明: 包含开始时间当天,包含结束时间当天--><!--传入person选择发音人-->
+<configs>
+
+    <group des="同行者" person="0">
+        <startDate>2018-07-09</startDate>
+        <endDate>2019-10-15</endDate>
+        <file>star/tts_back_ch_tongxingzhe_5k_190711.dat</file>
+        <md5>ec80ba9f90127408171f1c0da08755c7</md5>
+        <weight>2</weight>
+    </group>
+    <group des="同行者定制库" person="1">
+        <startDate>2018-07-09</startDate>
+        <endDate>2019-10-15</endDate>
+        <file>star/tts_stdDat_tongxingzhe_release_2019820.dat</file>
+        <md5>ac4a1dfa50430ec28782abec81ab69ae</md5>
+        <weight>2</weight>
+    </group>
+</configs>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_skill_root"
+    android:layout_width="440px"
+    android:layout_height="335px"
+    android:background="@drawable/selector_command_content">
+
+    <ImageView
+        android:id="@+id/iv_content_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40px"
+        android:layout_marginTop="25px" />
+
+    <TextView
+        android:id="@+id/tv_skill_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="11px"
+        android:layout_marginTop="31px"
+        android:layout_toRightOf="@id/iv_content_icon"
+        android:textColor="@color/capital_text_color"
+        android:textSize="28px" />
+
+
+    <Button
+        android:textSize="@dimen/textSize22px"
+        android:textColor="@drawable/selector_try_btn"
+        android:id="@+id/btn_skill_more"
+        android:layout_width="80px"
+        android:layout_height="43px"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="26px"
+        android:layout_marginTop="21px"
+        android:background="@drawable/selector_command_more"
+        android:text="@string/detail_more" />
+
+
+    <LinearLayout
+        android:layout_below="@id/tv_skill_name"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_marginTop="37dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textColor="@color/command_content_color"
+            android:id="@+id/tv_skill_content1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/textSize24px" />
+
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textColor="@color/command_content_color"
+            android:id="@+id/tv_skill_content2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/tv_skill_content1"
+            android:layout_marginTop="10dp"
+            android:textSize="@dimen/textSize24px" />
+
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textColor="@color/command_content_color"
+            android:id="@+id/tv_skill_content3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/tv_skill_content1"
+            android:layout_marginTop="10dp"
+            android:textSize="@dimen/textSize24px" />
+
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textColor="@color/command_content_color"
+            android:id="@+id/tv_skill_content4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/tv_skill_content1"
+            android:layout_marginTop="10dp"
+            android:textSize="@dimen/textSize24px" />
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

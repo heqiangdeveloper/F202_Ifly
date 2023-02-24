@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">ifly</string>
+    <string name="next_page">下一页</string>
+    <string name="tip_revise_answer">*&#160;请控制在1~8个字内,仅支持汉字、字母、数字</string>
+    <string name="tip_revise_aware">唤醒词建议：\n 1.使用2~5个汉字的中文名\n
+        2.&#160;为了避免误唤醒，请尽量不采用日常用语或同音字组\n&#160;&#160;&#160;&#160;&#160;&#160;成的名字\n
+        3.&#160;受所选唤醒词等影响，唤醒成功率可能略低于默认唤\n&#160;&#160;&#160;&#160;&#160;&#160;醒词</string>
+    <string name="set_fail">"设置失败，请"</string>
+
+    <string name="key_query_tip_countdown">%1$s秒后将退出按键查询功能</string>
+    <string name="voice_helper_hint">试着说: “返回”“关闭”翻页请说“下一页”</string>
+    <string name="weather_hint">试着说“ 明天呢 ”丶“ 退出 ”丶“ 成都呢 ”</string>
+    <string name="speech_ifly">讯飞语音云</string>
+    <string name="pull_volume_media">媒体音量</string>
+    <string name="pull_volume_navi">导航音量</string>
+    <string name="pull_volume_phone">电话音量</string>
+    <string name="pull_volume_system">小欧音量</string>
+
+    <string name="un_read">未读</string>
+    <string name="hava_read">已读</string>
+    <string name="is_the_first">已是第一个</string>
+    <string name="is_the_last">已是最后一个</string>
+
+    <string name="conteng_tag_1">""</string>
+    <string name="conteng_tag_2">""</string>
+    <string name="conteng_tag_3">""</string>
+
+    <string name="default_try_guide">打开空调</string>
+
+    <string name="no_wake_up">免唤醒</string>
+    <string name="changba_control">唱吧控制</string>
+    <string name="k_song">k歌</string>
+    <string name="hello_xiaoou">你好小欧,</string>
+
+    <string name="care_system">DMS驾驶员关怀系统</string>
+    <string name="mvw_words">常用免唤醒词</string>
+    <string name="sleep_mode">太空舱座椅休息模式</string>
+    <string name="no_wakeup">小欧语音免唤醒指令</string>
+    <string name="basic_function">小欧语音基础功能</string>
+    <string name="home">家</string>
+    <string name="company">公司</string>
+
+
+</resources>

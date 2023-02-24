@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="welcome_navi">
+        <item>导航到火车站</item>
+        <item>附近的加油站</item>
+        <item>附近的停车场</item>
+        <item>周边的美食</item>
+        <item>我想吃火锅</item>
+        <item>我想回家</item>
+        <item>我要去公司</item>
+        <!--<item>白天模式</item>-->
+        <!--<item>黑夜模式</item>-->
+        <item>查询我的位置</item>
+        <item>2D模式</item>
+        <item>3D模式</item>
+        <item>高速优先</item>
+        <item>不走高速</item>
+        <item>避免收费</item>
+        <item>避免拥堵</item>
+        <item>还有多久到</item>
+        <item>放大地图</item>
+        <item>缩小地图</item>
+        <item>关闭导航音量</item>
+        <item>打开实时路况</item>
+    </string-array>
+
+    <string-array name="welcome_music">
+        <item>打开音乐</item>
+        <item>我想听歌</item>
+        <item>播放收藏音乐</item>
+        <item>最近好听的歌</item>
+        <item>听刘德华的冰雨</item>
+        <item>听王菲的歌</item>
+        <item>我想听生僻字</item>
+        <item>下一首</item>
+        <item>暂停</item>
+        <item>播放</item>
+        <item>我想听伤感的歌</item>
+        <item>收藏这首歌</item>
+        <item>单曲循环</item>
+        <item>列表循环</item>
+        <item>顺序播放</item>
+        <item>随机播放</item>
+        <!--<item>打开听歌识曲</item>-->
+        <item>显示歌词</item>
+        <item>隐藏歌词</item>
+        <item>查看歌曲列表</item>
+        <item>关闭歌曲列表</item>
+    </string-array>
+
+    <string-array name="welcome_radio">
+        <item>打开收音机</item>
+        <item>我想听FM93.8</item>
+        <item>打开在线电台</item>
+        <item>我想听郭德纲相声</item>
+        <item>播放搜藏节目</item>
+        <item>讲个笑话</item>
+        <item>我要听新闻</item>
+        <item>听童话故事</item>
+        <item>收藏这个节目</item>
+        <item>我想听书</item>
+    </string-array>
+
+    <string-array name="welcome_tel">
+        <item>打电话给张三</item>
+        <item>查看通讯录</item>
+        <item>重拨</item>
+        <item>回拨</item>
+    </string-array>
+
+    <string-array name="welcome_car_control">
+        <item>打开空调</item>
+        <item>温度升高</item>
+        <item>太冷了</item>
+        <item>风速降低</item>
+        <item>打开天窗</item>
+        <item>打开车窗</item>
+        <item>温度调到30°</item>
+        <item>温度最高</item>
+        <item>内循环</item>
+        <item>外循环</item>
+        <item>打开前除霜</item>
+        <item>打开天窗通风</item>
+        <item>天窗开二分之一</item>
+        <item>打开遮阳帘</item>
+        <!--<item>打开氛围灯</item>-->
+        <item>氛围灯调节为红色</item>
+        <item>打开行车记录仪</item>
+        <item>打开雨刮</item>
+        <item>制冷模式</item>
+        <item>制热模式</item>
+        <item>温度最高</item>
+        <item>风速最低</item>
+        <item>空调吹面</item>
+        <item>空调吹脚</item>
+        <item>吹面吹脚</item>
+        <item>打开后除霜</item>
+        <!--<item>增大氛围灯亮度</item>-->
+        <!--<item>打开氛围灯律动</item>-->
+        <item>打开车窗透气</item>
+        <!--<item>打开后备箱</item>-->
+        <item>我要拍照</item>
+        <item>打开胎压监测</item>
+        <item>打开全景影像</item>
+    </string-array>
+
+    <string-array name="welcome_system_control">
+        <item>回首页</item>
+        <item>增大音量</item>
+        <item>静音</item>
+        <item>打开蓝牙</item>
+        <item>打开wifi</item>
+        <item>亮度升高</item>
+        <item>亮度降低</item>
+        <item>增大媒体音量</item>
+        <item>降低导航音量</item>
+    </string-array>
+
+    <string-array name="welcome_chexin">
+        <item>打开车信</item>
+        <item>给张三发消息</item>
+        <item>给张三发红包</item>
+        <item>将我的位置发给张三</item>
+        <item>播放未读消息</item>
+    </string-array>
+
+    <string-array name="welcome_news">
+        <item>杭州的天气怎么样</item>
+        <item>明天下雨吗</item>
+        <item>北京的火车票</item>
+        <item>重庆到上海的航班</item>
+        <item>长安汽车的股票</item>
+        <!--<item>现在几点啦</item>-->
+        <!--<item>今天是几号</item>-->
+    </string-array>
+
+    <string-array name="welcome_cars_baike">
+        <item>大灯怎么使用</item>
+        <item>行车记录仪怎么用</item>
+        <item>定速巡航怎么用</item>
+        <item>全景影像怎么用</item>
+    </string-array>
+
+    <string-array name="welcome_key_search">
+        <item>打开按键查询</item>
+        <item>方向盘按键怎么用</item>
+        <item>我要查询按键</item>
+        <item>这个按键怎么使用</item>
+    </string-array>
+
+    <string-array name="welcome_tucao">
+        <item>我要吐槽</item>
+        <item>打开用户反馈</item>
+        <item>我要反馈</item>
+        <item>系统真垃圾</item>
+    </string-array>
+
+    <string name="funcition_navi">导航</string>
+    <string name="funcition_music">音乐</string>
+    <string name="funcition_radio">电台</string>
+    <string name="funcition_tel">电话</string>
+    <string name="funcition_car_control">车辆控制</string>
+    <string name="funcition_system_control">系统控制</string>
+    <string name="funcition_chexin">车信</string>
+    <string name="funcition_news">资讯查询</string>
+    <string name="funcition_cars_baike">车辆百科</string>
+    <string name="funcition_tucao">吐槽</string>
+    <string name="function_key_search">按键查询</string>
+</resources>

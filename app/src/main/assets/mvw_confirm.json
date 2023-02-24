@@ -1,0 +1,59 @@
+{
+  "Keywords": [
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "确定",
+      "KeyWordId": 0
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "取消",
+      "KeyWordId": 1
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "退下",
+      "KeyWordId": 2
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "不行",
+      "KeyWordId": 3
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "不好",
+      "KeyWordId": 4
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "不用",
+      "KeyWordId": 5
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "好的",
+      "KeyWordId": 6
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "好啊",
+      "KeyWordId": 7
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "可以",
+      "KeyWordId": 8
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "需要",
+      "KeyWordId": 9
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "同意",
+      "KeyWordId": 10
+    }
+  ]
+}

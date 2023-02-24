@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_settings"
+    >
+
+       <com.chinatsp.ifly.module.me.recommend.view.CustomVideoView
+           android:id="@+id/video_view"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_gravity="center"
+           android:visibility="visible" />
+
+       <ImageView
+           android:id="@+id/video_close"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="20px"
+           android:layout_marginLeft="20px"
+           android:background="@drawable/selector_btn_close"
+           />
+
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:layout_gravity="bottom|center"
+           android:layout_marginBottom="80px"
+           >
+              <ImageView
+                  android:id="@+id/ivVideoPre"
+                  android:layout_width="90px"
+                  android:layout_height="90px"
+                  android:src="@drawable/selector_video_pre" />
+
+              <ImageView
+                  android:id="@+id/ivVideoPlay"
+                  android:layout_width="90px"
+                  android:layout_height="90px"
+                  android:layout_marginLeft="54px"
+                  android:src="@drawable/selector_video_pause"
+                  />
+
+              <ImageView
+                  android:id="@+id/ivVideoNext"
+                  android:layout_width="90px"
+                  android:layout_height="90px"
+                  android:layout_marginLeft="54px"
+                  android:layout_weight="1"
+                  android:src="@drawable/selector_video_next" />
+       </LinearLayout>
+
+
+
+       <FrameLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="bottom|center"
+           android:layout_marginBottom="20px"
+           android:orientation="horizontal"
+           android:visibility="visible">
+
+              <SeekBar
+                  android:id="@+id/videoSeekbar"
+                  android:layout_width="1000px"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:layout_marginRight="0px"
+                  android:max="1000"
+                  android:maxHeight="5px"
+                  android:minHeight="5px"
+                  android:progress="0"
+                  android:progressDrawable="@drawable/video_seekbar"
+                  android:thumbOffset="0px" />
+
+              <TextView
+                  android:id="@+id/tvMoveTime"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center_vertical"
+                  android:background="@drawable/video_seekbar_thrub"
+                  android:gravity="center"
+                  android:text="00:00/00:00"
+                  android:textColor="#ffffff"
+                  android:textSize="32px" />
+
+       </FrameLayout>
+</FrameLayout>

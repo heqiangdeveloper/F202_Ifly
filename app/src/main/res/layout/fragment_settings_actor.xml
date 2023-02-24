@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SettingsActivity">
+
+    <TextView
+        android:id="@+id/tv_actor_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="54px"
+        android:layout_marginBottom="30px"
+        android:gravity="center"
+        android:text="修改声音"
+        android:textColor="@color/grey"
+        android:textSize="36px" />
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/actor_recyclerView"
+        android:layout_width="1000px"
+        android:layout_height="460px" />
+
+    <LinearLayout
+        android:id="@+id/ll_actor_wrapper"
+        android:layout_width="1000px"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="30px"
+        android:layout_marginTop="34px"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/btn_actor_confirm"
+            android:layout_width="220px"
+            android:layout_height="80px"
+            android:background="@drawable/shape_bg_button_blue"
+            android:text="确认"
+            android:textColor="@drawable/selector_ttt"
+            android:textSize="36px" />
+
+        <Button
+            android:id="@+id/btn_actor_cancel"
+            android:layout_width="220px"
+            android:layout_height="80px"
+            android:layout_marginLeft="62px"
+            android:background="@drawable/shape_bg_button_translucent"
+            android:text="取消"
+            android:textColor="@color/white_fixed"
+            android:textSize="36px" />
+    </LinearLayout>
+
+</LinearLayout>

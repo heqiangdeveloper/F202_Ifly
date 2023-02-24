@@ -1,0 +1,79 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ToolbarAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+   <!--     <item name="android:windowShowWallpaper">true</item>-->
+     </style>
+
+    <!-- 设置Toolbar标题字体的大小 -->
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/alpha_50_black</item>
+    </style>
+
+    <style name="Toolbar.SubTitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Subtitle">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="style_text_capital">
+        <item name="android:textColor">@color/capital_text_color</item>
+        <item name="android:textSize">36px</item>
+        <!--<item name="android:textStyle">bold</item>-->
+    </style>
+
+    <style name="DividerWhiteLine">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:background">@drawable/ic_divider_line</item>
+    </style>
+
+    <!--当从 A1 启动 A2 时，A1 从屏幕上消失，这个动画叫做 android:activityOpenExitAnimation-->
+    <!--当从 A1 启动 A2 时，A2 出现在屏幕上，这个动画叫做 android:activityOpenEnterAnimation-->
+    <!--当从 A2 退出回到 A1 时，A2 从屏幕上消失，这个叫做 android:activityCloseExitAnimation-->
+    <!--当从 A2 退出回到 A1 时，A1 出现在屏幕上，这个叫做 android:activityCloseEnterAnimation-->
+    <!--<style name="VoiceWindowAnimTheme" parent="@android:style/Animation.Activity">-->
+        <!--<item name="android:activityOpenEnterAnimation">@anim/in_from_right</item>-->
+        <!--<item name="android:activityOpenExitAnimation">@anim/out_from_right</item>-->
+        <!--<item name="android:activityCloseEnterAnimation">@anim/in_from_right</item>-->
+        <!--<item name="android:activityCloseExitAnimation">@anim/out_from_right</item>-->
+    <!--</style>-->
+
+    <style name="FloatViewAnim">
+        <item name="android:windowEnterAnimation">@anim/floatview_in_from_right</item>
+        <item name="android:windowExitAnimation">@anim/floatview_out_from_right</item>
+    </style>
+
+    <!-- Variant of {@link #Theme_Translucent} with no title bar -->
+    <style name="my_style" parent="android:Theme.Translucent.NoTitleBar">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="wn_anim_view">
+        <item name="android:windowEnterAnimation">@anim/push_up_in2</item>
+        <item name="android:windowExitAnimation">@anim/push_up_out2</item>
+    </style>
+
+    <style name="style_command">
+        <item name="android:textColor">@color/capital_text_color</item>
+        <item name="android:textSize">36px</item>
+        <!--<item name="android:textStyle">bold</item>-->
+    </style>
+
+    <style name="style_relief" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+</resources>

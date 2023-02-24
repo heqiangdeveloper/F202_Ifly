@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_background"
+
+    android:orientation="vertical">
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        >
+
+        <ImageView
+            android:id="@+id/dialog_video_cover"
+            android:layout_width="720px"
+            android:layout_height="406px" />
+
+        <ImageView
+            android:id="@+id/dialog_video_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="21px"
+            android:layout_marginLeft="27px"
+            android:src="@drawable/video_dialog_close"
+            />
+
+        <ImageView
+            android:id="@+id/dialog_video_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/video_play"
+            />
+
+        <TextView
+            android:id="@+id/tvVideoName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="28px"
+            android:textSize="35px"
+            android:textColor="#FFFFFF"
+            />
+    </FrameLayout>
+
+
+</FrameLayout>

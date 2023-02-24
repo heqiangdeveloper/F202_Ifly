@@ -1,0 +1,20 @@
+{
+  "Keywords": [
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "打开原唱",
+      "KeyWordId": 0
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "打开伴唱",
+      "KeyWordId": 1
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "切歌",
+      "KeyWordId": 2
+    }
+
+  ]
+}

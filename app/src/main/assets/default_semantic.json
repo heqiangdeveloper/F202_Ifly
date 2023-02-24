@@ -1,0 +1,11 @@
+{
+  "slots": {
+    "endLoc": {
+      "ori_loc": "世界之窗",
+      "topic": "others"
+    },
+    "startLoc": {
+      "ori_loc": "CURRENT_ORI_LOC"
+    }
+  }
+}

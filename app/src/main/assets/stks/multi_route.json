@@ -1,0 +1,60 @@
+{
+  "list": [
+    {
+      "dimension": [
+        {
+          "field": "map",
+          "spword": false,
+          "val": "返回"
+        }
+      ],
+      "id": 50
+    },
+    {
+      "dimension": [
+        {
+          "field": "map",
+          "spword": false,
+          "val": "第一个"
+        }
+      ],
+      "id": 51
+    },
+
+    {
+      "dimension": [
+        {
+          "field": "map",
+          "spword": false,
+          "val": "第二个"
+        }
+      ],
+      "id": 52
+    },
+    {
+      "dimension": [
+        {
+          "field": "map",
+          "spword": false,
+          "val": "第三个"
+        }
+      ],
+      "id": 53
+    },
+    {
+      "dimension": [
+        {
+          "field": "map",
+          "spword": false,
+          "val": "开始导航"
+        }
+      ],
+      "id": 54
+    }
+  ],
+  "nliFieldSearch": [
+    "semantic.slots.poiName",
+    "semantic.slots.poiName2"
+  ],
+  "type": "poi"
+}

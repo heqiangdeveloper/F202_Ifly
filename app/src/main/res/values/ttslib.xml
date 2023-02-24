@@ -1,0 +1,1333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="iflytek_not_ready">稍等一会，马上就好</string>
+    <string name="iflytek_file_not_found">语音数据加载异常，请检查后重试</string>
+
+    <string name="ask_name">Hi~我是你的专属语音助手#VOICENAME#，很高兴认识你！我可以帮你做很多事，试着通过“你好#VOICENAME#”召唤我！</string>
+    <string name="make_name">好的，下次你可以通过“你好#VOICENAME#”唤醒我！</string>
+    <string name="set_name">请说出新的名字</string>
+
+    <string name="ask_set_name_01">试着通过</string>
+    <string name="ask_set_name_02">" \" "你好 , 小欧" \" "唤醒我</string>
+
+    <string name="default_username">亲爱的</string>
+    <string name="main_C1">%1$s，%2$s好</string>
+    <string-array name="first_aware_greetings">
+        <item>早上</item>
+        <item>上午</item>
+        <item>中午</item>
+        <item>下午</item>
+        <item>晚上</item>
+        <item>你</item>
+    </string-array>
+
+    <string name="aware_greeting_by_manual">请说</string>
+    <string-array name="aware_greetings">
+        <item>在呢</item>
+        <item>来了</item>
+        <item>我在</item>
+    </string-array>
+    <string name="happy_birthday">亲爱的，生日快乐</string>
+
+<!--  用户唤醒后又说了一次唤醒词-->
+    <string-array name="second_greetings">
+        <item>在呢</item>
+        <item>我在</item>
+    </string-array>
+
+    <string name="introduce_self">Hi~我是你的专属语音助手小欧，很高兴认识你！我可以帮你做很多事，试着通过“你好小欧”召唤我！</string>
+
+    <string name="timeout_no_speak_1st">我可以为你导航、打电话、播放音乐、控制车辆，你需要我做什么</string>
+    <string name="timeout_no_speak_2nd">我可以为你导航、打电话、播放音乐、控制车辆，你要不要试试看</string>
+    <string name="timeout_no_speak_3rd">有需要再叫我，我随时在。</string>
+
+    <string name="no_understand">很抱歉我没有理解，可以换种说法吗？</string>
+    <string name="timeout_no_understand_1st">你可以试着说\"导航\"、\"打电话\"、\"我想听音乐\"</string>
+    <string name="tire_no_unstanstand_one">你可以试着说 “好的” “可以” “不行”</string>
+    <string name="tire_no_undstanstand_two">有需要再叫我</string>
+
+    <string name="timeout_understand_once_1st">为你找到多个#POI#，要去第几个？如果没有，请说取消。</string>
+    <string name="no_support">抱歉，%1$s暂不会这个操作！</string>
+    <string name="poi_find_error">好的，想去哪里?</string>
+
+    <string name="timeout_and_exit">有需要再叫我，我随时在</string>
+
+    <string name="no_network_tip">网络无法连接，请稍后再试</string>
+    <string name="network_weka_tip">网络不稳定，请稍后再试</string>
+    <string name="pre_page_fail">当前已是第一页，请选择</string>
+    <string name="next_page_fail">当前已是最后一页，请选择</string>
+    <string name="reach_final_page">已翻到最后一页，请选择</string>
+    <string name="switch_page_ok">已翻到第#NUM#页</string>
+    <string name="switch_page_fail">没有第#NUM#页，请重新选择</string>
+    <string name="choice_out_of_range">当前页面仅有#MAXNUM#个结果，选择第几个？</string>
+
+    <string name="search_list_select_timeout_1">为你找到多个%1$s，要去第几个？如果没有，请说取消。</string>
+    <string name="search_list_select_timeout_2">有需要再叫我</string>
+
+    <string name="increase_volume_fail">当前已是最大音量</string>
+    <string name="increase_volume_ok">音量已增大</string>
+    <string name="decrease_volume_fail">当前已是最小音量</string>
+    <string name="decrease_volume_ok">音量已降低</string>
+    <string name="stock_down">%1$s当前的股价是%2$s下跌%3$s跌幅%4$s</string>
+    <string name="stock_rise">%1$s当前的股价是%2$s上涨%3$s涨幅%4$s</string>
+    <string name="stock_trading_suspension">%1$s当前已停牌</string>
+    <string name="stock_no_data">很抱歉，没有查询到%1$s的股票数据</string>
+    <string name="flight_query_has_data">为你查询到以下航班信息</string>
+    <string name="flight_query_no_data">抱歉，没有查询到相关信息</string>
+    <string name="flight_query_fail">航班信息查询失败，请稍后再试</string>
+    <string name="train_query_has_data">为你查询到以下火车信息</string>
+    <string name="train_query_no_data">抱歉，没有查询到相关信息</string>
+    <string name="train_query_fail">火车信息查询失败，请稍后再试</string>
+    <string name="turn_off_in_boundary">已翻到第#NUM#页，请选择</string>
+    <string name="turn_off_out_of_boundary">"没有第#NUM#页，请重新选择"</string>
+    <string-array name="auto_guide_tips">
+        <item>今天天气怎样</item>
+    </string-array>
+
+    <string-array name="user_exit">
+        <item>好的，回头见</item>
+        <item>期待下次见</item>
+    </string-array>
+
+    <string-array name="second_aware">
+        <item>我在这，你需要我做什么</item>
+        <item>在呢，需要我做什么？</item>
+    </string-array>
+
+    <string-array name="open_navi">
+        <item>已打开，要去哪里？</item>
+        <item>好的，导航已打开，去哪里？</item>
+    </string-array>
+
+    <string name="no_poi_search_result">我没找到这个地方，换个说法吧</string>
+    <string name="no_poi_search_results">我没找到这些地方，换一个说法吧</string>
+    <string name="add_point">即将为你添加#POI2#为途径点</string>
+    <string name="add_point_first_sure">你确定添加#POI1#为途径点吗，或者说第几个？</string>
+    <string name="add_point_first">已为你添加#POI#为途径点</string>
+    <string name="add_point_both">已为你添加#POI#和#POI2#为途径点</string>
+    <string name="add_point_both_fail">抱歉，途经点添加失败。</string>
+    <string name="add_point_second">我没找到第一个地方，确定添加#POI2#为途径点2吗，或者说第几个？</string>
+    <string name="no_poi_search_result1">我没找到这个途经点，换一个说法吧</string>
+    <string name="one_poi_search_result">即将为你导航到#POI1#，请小心驾驶</string>
+    <string name="one_poi_search_result1">即将为你导航到#POI#途经#POI1#</string>
+    <string name="make_sure_navigate_to_desName">确定导航到#POI1#吗，或说第几个</string>
+    <string name="make_sure_add_naame_as_point">你确定添加#POI1#为途经点吗，或者说第几个？</string>
+    <string name="make_sure_add_first_name_as_point">你确定添加#POI1#为途经点吗</string>
+    <string name="navi_cannot_begin">#VOICENAME#不需要这么做</string>
+    <string name="there_are_multiple_keyword_select_number">有多个#POI1#，选择第几个</string>
+    <string name="there_are_multiple_keyword_select_number1">为你找到%d个#POI1#，要去第几个?</string>
+    <string name="where_i_am">你现在位于#CURRENTPOI#，我能为你做点什么？</string>
+    <string name="where_i_am_fail">未定位成功</string>
+
+    <string name="navi_to_soon">即将为你导航到#POI#</string>
+
+    <string name="map_zoom_out_ok">地图已放大</string>
+    <string name="map_zoom_out_fail">地图已放至最大</string>
+    <string name="map_zoom_in_ok">地图已缩小</string>
+    <string name="map_zoom_in_fail">地图已缩至最小</string>
+    <string name="map_switch_2d_ok">已切换到2D车头朝上视图，你也可以切换到正北朝上视图</string>
+    <string name="map_switch_2d_fail">当前已是2D车头朝上视图，你也可以切换到正北朝上视图</string>
+    <string name="map_switch_3d_ok">已切换到3D模式</string>
+    <string name="map_switch_3d_fail">当前已是3D模式</string>
+    <string name="map_switch_headup_ok">已切换到2D车头朝上视图，你也可以切换到3D模式</string>
+    <string name="map_switch_headup_fail">当前已是车头朝上视图</string>
+    <string name="map_switch_northup_ok">已切换到正北朝上视图</string>
+    <string name="map_switch_northup_fail">当前已是正北朝上视图</string>
+
+    <string name="map_switch_night_ok">已切换到黑夜模式</string>
+    <string name="map_switch_night_fail">当前已是黑夜模式</string>
+
+    <string name="map_switch_daytime_ok">已切换到白天模式</string>
+    <string name="map_switch_daytime_fail">当前已是白天模式</string>
+
+    <string name="map_switch_automatic_ok">已切换到自动模式</string>
+    <string name="map_switch_automatic_fail">当前已是自动模式</string>
+
+    <string name="map_road_condition_opened">路况已打开，赶快瞧瞧吧！</string>
+    <string name="map_road_condition_closed">路况已关闭，祝你一路顺畅！</string>
+
+    <string name="map_stop_navi_ok">需要退出导航吗，请说确定或取消</string>
+    <string name="map_stop_navi_fail">未处于导航中</string>
+    <string name="map_start_navi_success">已打开</string>
+    <string name="map_hawkeye_success">已切换</string>
+    <string name="map_stop_tts_ok">需要关闭电子眼播报吗，请说确定或取消</string>
+    <string name="map_to_launch">需要切到应用屏吗，请说确定或取消</string>
+
+    <string name="no_along_way_search_result">抱歉，未找到沿途的#POITYPE#</string>
+    <string name="no_along_way_search_result1">我没找到这个地方，换一个说法吧</string>
+    <string name="map_along_way_search_fail">未处于导航中</string>
+    <string name="map_along_way_search_not_support">抱歉，暂不支持沿途#POITYPE#搜索</string>
+    <string name="sorry_plan_failed">抱歉,规划路线失败</string>
+    <string-array name="map_along_way_search_types">
+        <item>加油站</item>
+        <item>充电桩</item>
+        <item>ATM</item>
+        <item>ATM机</item>
+        <item>厕所</item>
+        <item>洗手间</item>
+        <item>维修站</item>
+        <item>医院</item>
+        <item>火车站</item>
+    </string-array>
+
+    <string-array name="topic_toilet_says">
+        <item>厕所</item>
+        <item>洗手间</item>
+        <item>卫生间</item>
+    </string-array>
+
+    <string-array name="topic_resort_says">
+        <item>公园</item>
+        <item>游乐园</item>
+        <item>游乐场</item>
+        <item>景点</item>
+    </string-array>
+    <string name="map_along_way_search_max_passpoint">抱歉，最多支持两个途经点，无法添加更多。</string>
+
+    <string name="map_no_set_home_site">家庭地址还未设置，你的家在哪？</string>
+    <string name="map_navi_to_home">跟着小欧出发，平平安安到家</string>
+    <string name="map_no_set_company_site">公司地址还未设置，你的公司在哪？</string>
+    <string name="map_navi_to_company">即将为你导航到#COMPANYPOI#</string>
+    <string name="map_set_company_site">已将#POI#设置为公司地址，现在开始导航</string>
+    <string name="map_set_home_site">已将#POI#设置为家庭地址，现在开始导航</string>
+    <string name="map_set_Point_site">已将#POI#设为途经点</string>
+    <string name="map_navi_to_station">好的，跟着小欧走，活力马上有</string>
+    <string name="map_navi_to_toilet">好的，不要着急，小欧帮你解决问题</string>
+    <string name="map_navi_to_resort">马上开始导航，但愿小欧能陪你走遍天涯海角</string>
+
+    <string name="map_prefer_no_in_naving">未处于导航中</string>
+
+    <string name="map_prefer_highway_ok">路线已切换为高速优先，请小心驾驶。</string>
+    <string name="map_prefer_highway_fail">当前路线已是高速优先，请小心驾驶。</string>
+
+    <string name="map_avoid_highway_ok">路线已切换为不走高速，祝你一路平安。</string>
+    <string name="map_avoid_highway_fail">当前路线已是不走高速，祝你一路平安。</string>
+
+    <string name="map_avoid_cost_ok">路线已切换为避免收费，你真是个持家的人。</string>
+    <string name="map_avoid_cost_fail">当前路线已是避免收费，你是个持家的人。</string>
+
+    <string name="map_avoid_traffic_ok">路线已切换为躲避拥堵，祝你一路顺畅</string>
+    <string name="map_avoid_traffic_fail">当前路线已是躲避拥堵，祝你一路顺畅</string>
+
+    <string name="map_start_navi">好的，马上出发！</string>
+    <string name="map_exit_navi_select">需要退出导航吗，请说确定或取消</string>
+
+    <string name="map_gosettings_ok">好的, 已跳转到设置</string>
+    <string name="map_select_route_ok">确定路线后请说开始导航</string>
+    <string name="map_cancel_store_up_ok">好的，已取消收藏</string>
+    <string name="map_get_time_and_distance_fail">当前不在导航中</string>
+    <string name="map_colect_current_Poi_ok">好的，已收藏。需要导航时可直接让我打开收藏夹</string>
+    <string name="map_colect_current_Poi_fai">选择地方后再说收藏当前位置</string>
+
+    <string name="map_open_navi_volume">好的，已打开</string>
+    <string name="map_close_navi_volume">好的，已关闭</string>
+
+    <string-array name="radio_switch">
+        <item>好的，马上换。</item>
+        <item>嗯，这就换。</item>
+    </string-array>
+
+    <string name="radio_play_waveband_exceed_range">调频已超出范围，换一个试试</string>
+
+    <string name="radio_open_netradio_net">在线电台已打开，你想听点什么？</string>
+    <string name="radio_open_netradio_no_net">在线电台已打开</string>
+    <string name="radio_closed">已关闭</string>
+    <string name="radio_collect">已收藏</string>
+    <string name="radio_cancel_collect">已取消收藏</string>
+
+    <string name="one_number_search_result">好的，正在呼叫#CONTACT#</string>
+    <string name="one_number_header_search_result">好的，正在呼叫#HEAD#的号码</string>
+    <string name="one_number_tail_search_result">好的，正在呼叫尾号为#TAIL#的号码</string>
+    <string name="more_number_search_result">好的，#CONTACT#有#NUM#个号码，拨打哪一个？</string>
+    <string name="more_number_header_search_result">找到多个#HEAD#的号码，呼叫第几个？</string>
+    <string name="more_number_tail_search_result">找到多个尾号为#TAIL#的号码，呼叫第几个？</string>
+    <string name="more_contact_search_result">找到#NUM#个#CONTACT#，呼叫第几个？</string>
+    <string name="bt_no_connect">抱歉，蓝牙未连接，请打开手机蓝牙与车机配对</string>
+    <string name="bt_no_open_contact_switch">联系人未同步，请先开启“同步联系人”设置</string>
+    <string name="bt_no_open_contact_switch_1">蓝牙已连接，同步联系人开关也已打开，但手机拒绝同步</string>
+    <string name="bt_no_open_contact_switch_2">联系人未同步，请前往手机蓝牙设置页面开启通讯录同步开关</string>
+    <string name="bt_no_call_log">抱歉，未找到通话记录信息</string>
+    <string name="bt_contact_sync_incomplete">正在同步联系人，马上就好</string>
+    <string name="bt_contact_sync_completed">联系人同步完成，快使用语音拨打电话吧</string>
+    <string name="bt_cannot_find_contact_name">抱歉，没找到#CONTACT#的号码，请确认联系人。</string>
+    <string name="bt_timeout_more_contacts">找到#NUM#个#CONTACT#，请说第几个或取消。</string>
+    <string name="bt_timeout_more_numbers">#CONTACT#有#NUM#个号码，请说第几个或取消</string>
+    <string name="bt_cannot_find_contact_no_name">该联系人</string>
+    <string name="bt_cannot_find_contact_no_name_1">未找到</string>
+    <string name="bt_cannot_find_contact_no_name_2">没有找到</string>
+    <string name="bt_cannot_find_contact_no_name_3">没找到</string>
+    <string name="bt_cannot_find_contact_no_name_4">没有为</string>
+
+    <string name="bt_incoming_warning">#PHONE#来电，要接听还是挂断</string>
+    <string name="bt_make_dial_number">好的，正在呼叫#PHONENUM#</string>
+    <string name="bt_make_dial">好的，想打给谁?</string>
+    <string name="bt_make_redial_confirm">确定重&lt;cnphone py=chong2&gt;拨#PHONE#的电话吗？</string>
+    <string name="bt_make_redial">好的，正在呼叫</string>
+    <string name="bt_make_callback_confirm">确定给#PHONE#回拨电话吗？</string>
+    <string name="bt_make_callback">好的，正在呼叫</string>
+    <string name="bt_cancel_dial">已取消</string>
+    <string name="app_open_success">好的，已打开</string>
+    <string name="app_close_success">已关闭</string>
+    <string name="bt_make_rejectCall">好的，已挂断</string>
+    <string name="bt_cancel_call">好的，已取消</string>
+    <string name="bt_find_contact_error">好的，想打给谁?</string>
+    <string name="user_no_login_guide">请完成账号登陆，体验欧尚个性化智能推荐服务</string>
+    <string name="music_open_no_net">音乐已打开，请检查网络</string>
+    <string name="music_open_have_net">音乐已打开，你想听点什么？</string>
+
+    <string name="no_support_city_weather_query">抱歉，暂不支持查询%1$s的天气预报</string>
+    <string name="no_support_city_weather_query_gai">该城市</string>
+    <string name="no_support_exceed_date_weather_query">抱歉，仅支持查询六天内的天气预报</string>
+    <string name="weather_query_sucess_today">%1$s，%2$s%3$s，%4$s，%5$s，当前温度%6$d度，空气质量%7$s</string>
+    <string name="weather_query_sucess">%1$s，%2$s%3$s，%4$s，%5$d到%6$d度，空气质量%7$s</string>
+
+    <!--主动服务模块-->
+    <string name="msg_oil_not_enough">记得尽快去加油</string>
+    <string name="msg_call_me_if_need">好的，有需要再叫我</string>
+    <string name="msg_to_repair">记得尽快去维修</string>
+    <string name="msg_takecare_secure">行车注意安全</string>
+    <string name="msg_to_battery_charging">记得尽快去充电</string>
+    <string name="msg_to_route">确定路线后请说开始导航</string>
+    <string name="msg_to_popup">收到微信发来的位置，开始导航吗？</string>
+    <string name="msg_to_popup_nav">微信位置推送</string>
+    <string name="msg_to_os_send">收到手机发来的位置，开始导航吗？</string>
+    <string name="msg_to_cancel_nav">取消</string>
+    <string name="msg_to_phone_nav">手机位置推送</string>
+    <string name="msg_to_weather">天气提醒</string>
+
+    <string name="msg_to_no_oil">油量不足</string>
+    <string name="msg_to_elec">电量不足</string>
+    <string name="msg_to_got_work">上班路线推送</string>
+    <string name="msg_to_go_home">下班路线推送</string>
+    <string name="msg_to_go_station">车况提醒</string>
+    <string name="msg_to_go_weixiux">去维修站</string>
+    
+    <string name="msg_tts_isnull">好的</string>
+    <string name="msg_to_sure_nav">确定</string>
+    <string name="msg_unlock_title">靠近解锁设置</string>
+    <string name="msg_lock_title">离开闭锁设置</string>
+    <string name="msg_lock_unlock_title">靠近解锁及离开闭锁设置</string>
+    <string name="msgC93">#REASON#，已关闭钥匙靠近解锁及离开闭锁功能，确定打开吗</string>
+    <string name="msgC93_1">#REASON#，已关闭钥匙靠近解锁功能，确定打开吗</string>
+    <string name="msgC93_2">#REASON#，已关闭钥匙离开闭锁功能，确定打开吗</string>
+    <string name="msgC94">已打开</string>
+    <string name="msgC95">。</string>
+    <string name="msgC122">车主已关闭无钥匙驾驶功能，熄火后车辆无法再启动</string>
+
+    <string name="msg_to_car_no_err">小欧已帮你做过检查，爱车一切正常，一路平安!</string>
+    <string name="msg_to_car_has_err">检查到%1$d个故障，请尽快检查处理</string>
+    <string name="msg_to_car_oil_not_enough">你的爱车一切正常，但油量偏低，需要导航到附近的加油站吗？</string>
+    <string name="msg_to_car_temperature_hight">发动机冷却系统出现故障，请马上靠边停车熄火，并尽快检查处理</string>
+    <string name="msg_to_car_brake_fluid_low">制动液不足，请减速慢性，并尽快检查处理</string>
+    <string name="msg_to_car_fault_EBD">电子制动力分配系统存在异常，请减速慢行，并尽快检查处理</string>
+    <string name="msg_to_car_fault_ABS">防抱死系统存在异常，请减速慢行，并尽快检查处理</string>
+    <string name="msg_to_car_fault_EPS">助力转向系统存在异常，请减速慢行，并尽快检查处理</string>
+    <string name="msg_to_car_electricity_not_enough">电量偏低，需要导航到附近的充电站吗？</string>
+
+    <!--按键模块-->
+    <string name="anjian_c1">你按下的是“定速巡航系统开关”按键，系统已开启。现在为你播放使用教程。</string>
+    <string name="anjian_c2">你按下的是“定速巡航系统开关”按键，系统已开启。为了你的安全，建议你停车后查看使用教程。</string>
+    <string name="anjian_c3">你按下的是“定速巡航系统开关”按键，系统已关闭。现在为你播放使用教程。</string>
+    <string name="anjian_c4">你按下的是“定速巡航系统开关”按键，系统已关闭。为了你的安全，建议你停车后查看使用教程。</string>
+    <string name="anjian_c5">你按下的是“巡航控制取消”按键，巡航控制已取消。现在为你播放使用教程。</string>
+    <string name="anjian_c6">你按下的是“巡航控制取消”按键，巡航控制已取消。为了你的安全，建议你停车后查看使用教程。</string>
+    <string name="anjian_c7">你按下的是“巡航控制取消”按键，按下后将退出巡航控制，车辆会保存当前的车速，以便下次恢复时使用。现在为你播放使用教程。</string>
+    <string name="anjian_c8">你按下的是“巡航控制取消”按键，按下后将退出巡航控制，车辆会保存当前的车速，以便下次恢复时使用。为了你的安全，建议你停车后查看使用教程。</string>
+    <string name="anjian_c21">你按下的是“仪表上翻页”按键，仪表已翻页</string>
+    <string name="anjian_c22">你按下的是“仪表下翻页”按键，仪表已翻页</string>
+    <string name="anjian_c23">你按下的是“仪表确定”按键，按下后将实现仪表页面确定操作</string>
+    <string name="anjian_c24">你按下的是“仪表页面切换”按键，按下后将实现仪表页面切换操作</string>
+    <string name="anjian_c25">你按下的是“媒体切换”按键，试着按下后切换为其他媒体源</string>
+    <string name="anjian_c26">你按下的是“音量调高”按键，按下后将调高音量</string>
+    <string name="anjian_c27">你按下的是“音量降低”按键，按下后将降低音量</string>
+    <string name="anjian_c28">你按下的是“音量静音”按键，按下后将静音</string>
+    <string name="anjian_c29">你按下的是“电话挂断或切换上一首”按键</string>
+    <string name="anjian_c30">你按下的是“电话接听或切换下一首”按键</string>
+    <string name="anjian_c31">你按下的是“电子稳定系统开关”按键，电子稳定系统已打开，现在为你播放使用教程。</string>
+    <string name="anjian_c32">你按下的是“电子稳定系统开关”按键，电子稳定系统已关闭，现在为你播放使用教程。</string>
+    <string name="anjian_c33">你按下的是“电子稳定系统开关”按键，电子稳定系统已打开，为了你的安全，建议你停车后查看使用教程。</string>
+    <string name="anjian_c34">你按下的是“电子稳定系统开关”按键，电子稳定系统已关闭，为了你的安全，建议你停车后查看使用教程。</string>
+    <string name="anjian_c35">你按下的是“全景影像开关”按键，全景影像已打开</string>
+    <string name="anjian_c36">你按下的是“全景影像开关”按键，全景影像已关闭</string>
+    <string name="anjian_c37">你按下的是“后备箱开启”按键，请在停车状态下操作该按键</string>
+    <string name="anjian_c38">你按下的是“后备箱开启”按键，后备箱已打开</string>
+    <string name="anjian_c39">你按下的是“后备箱开启”按键，后备箱已关闭</string>
+    <string name="anjian_c40">你按下的是“电子驻车开关”，电子驻车已打开，现在为你播放使用教程。</string>
+    <string name="anjian_c41">你按下的是“电子驻车开关”，电子驻车已关闭，现在为你播放使用教程。</string>
+    <string name="anjian_c42">你按下的是“电子驻车开关”，电子驻车已打开，为了你的安全，建议你停车后查看使用教程</string>
+    <string name="anjian_c43">你按下的是“电子驻车开关”，电子驻车已关闭，为了你的安全，建议你停车后查看使用教程</string>
+    <string name="anjian_c44">你按下的是“自动驻车开关”按键，自动驻车已打开，现在为你播放使用教程。</string>
+    <string name="anjian_c45">你按下的是“自动驻车开关”按键，自动驻车已关闭，现在为你播放使用教程。</string>
+    <string name="anjian_c46">你按下的是“自动驻车开关”按键，自动驻车已打开，为了你的安全，建议你停车后查看使用教程。</string>
+    <string name="anjian_c47">你按下的是“自动驻车开关”按键，自动驻车已关闭，为了你的安全，建议你停车后查看使用教程。</string>
+    <string name="anjian_c48">你按下的是“自动泊车系统开关”按键，自动泊车已打开，现在为你播放使用教程。</string>
+    <string name="anjian_c49">你按下的是“自动泊车系统开关”按键，自动泊车已关闭，现在为你播放使用教程。</string>
+    <string name="anjian_c50">你按下的是自动泊车系统开关按键，自动泊车已打开，为了你的安全，建议你停车后查看使用教程。</string>
+    <string name="anjian_c51">你按下的是自动泊车系统开关按键，自动泊车已关闭，为了你的安全，建议你停车后查看使用教程。</string>
+    <string name="anjian_c52">你按下的是“驾驶模式切换”按键，已切换到经典模式</string>
+    <string name="anjian_c53">你按下的是“驾驶模式切换”按键，已切换到运动模式</string>
+    <string name="anjian_c54">你按下的是“驾驶模式切换”按键，已切换到经济模式</string>
+    <string name="anjian_c55">你按下的是“车门解闭锁”开关，所有车门已上锁</string>
+    <string name="anjian_c56">你按下的是“车门解闭锁”开关，所有车门已解锁</string>
+    <string name="anjian_c57">你按下的是“车窗锁止”开关，所有车窗已允许升降</string>
+    <string name="anjian_c58">你按下的是“车窗锁止”开关，所有车窗已禁止升降</string>
+    <string name="anjian_c59">你按下的是“主驾车窗一键升降”开关</string>
+    <string name="anjian_c60">你按下的是“车门门窗升降”开关</string>
+    <string name="anjian_c61">你按下的是“温度调节面板”</string>
+    <string name="anjian_c62">你按下的是“空调制冷开关”按键，制冷模式已打开</string>
+    <string name="anjian_c63">你按下的是“空调制冷开关”按键，制冷模式已关闭</string>
+    <string name="anjian_c64">你按下的是“前除霜开关”，前除霜已打开</string>
+    <string name="anjian_c65">你按下的是“前除霜开关”，前除霜已关闭</string>
+    <string name="anjian_c66">你按下的是“后除霜开关”，后除霜已打开</string>
+    <string name="anjian_c67">你按下的是“后除霜开关”，后除霜已关闭</string>
+    <string name="anjian_c68">你按下的是“空调关闭按键”，空调已关闭</string>
+    <string name="anjian_c69">你按下的是“紧急报警开关”，紧急报警灯已打开</string>
+    <string name="anjian_c70">你按下的是“自动空调开关”，自动空调模式已开启</string>
+    <string name="anjian_c71">你按下的是“空调吹风模式切换”开关，已开启吹脸模式</string>
+    <string name="anjian_c72">你按下的是“空调吹风模式切换”开关，已开启吹脚模式</string>
+    <string name="anjian_c73">你按下的是“空调吹风模式切换”开关，已开启吹脸吹脚模式</string>
+    <string name="anjian_c74">你按下的是“空调吹风模式切换”开关，已开启吹脚除霜模式</string>
+    <string name="anjian_c75">你按下的是“空调循环模式切换”开关，已开启内循环模式</string>
+    <string name="anjian_c76">你按下的是“空调循环模式切换”开关，已开启外循环模式</string>
+    <string name="anjian_c77">你按下的是“空调循环模式切换”开关，已开启自动循环模式</string>
+    <string name="anjian_c78">你按下的是“空调最大制冷模式”开关</string>
+    <string name="anjian_c79">你按下的是“空调风量调节”开关</string>
+    <string name="anjian_c80">你按下的是“行车记录仪拍照”按钮，按下后将拍摄车辆周边环境</string>
+    <string name="anjian_c81">你按下的是“紧急录制”按钮，按下后将录制车辆周边实时影像</string>
+    <string name="anjian_c82">你按下的是“紧急求助”按钮，出现紧急情况时可按下该按钮寻求帮助</string>
+    <string name="anjian_c83">你按下的是“天窗开启”按钮，天窗已开启</string>
+    <string name="anjian_c84">你按下的是“天窗关闭”按钮，天窗已关闭</string>
+    <string name="anjian_c85">你按下的是“遮阳帘开启”按钮，遮阳帘已开启</string>
+    <string name="anjian_c86">你按下的是“遮阳帘关闭”按钮，遮阳帘已关闭</string>
+    <string name="anjian_c87">你按下的是“顶灯左开关”，左侧顶灯已开启</string>
+    <string name="anjian_c88">你按下的是“顶灯右开关”，右侧顶灯已开启</string>
+    <string name="anjian_c89">你按下的是“顶灯左开关”，左侧顶灯已关闭</string>
+    <string name="anjian_c90">你按下的是“顶灯右开关”，右侧顶灯已关闭</string>
+    <string name="anjian_c91">你按下的是“座椅高度调节开关”，请查看使用教程</string>
+    <string name="anjian_c92">你按下的是“座椅前后调节开关”，请查看使用教程</string>
+    <string name="anjian_c93">你按下的是“座椅高度调节开关”，请查看使用教程</string>
+    <string name="anjian_c94">你拨动的是“灯光调节手柄”，现在为你播放使用教程。</string>
+    <string name="anjian_c95">你拨动的是“灯光调节手柄”，为了你的安全，建议你停车后查看使用教程</string>
+    <string name="anjian_c110">你拨动的是“雨刮调节手柄”，现在为你播放使用教程</string>
+    <string name="anjian_c111">你拨动的是“雨刮调节手柄”，为了你的安全，建议你停车后查看使用教程。</string>
+    <string name="feedback_c1">开始吐槽吧，小欧听着呢</string>
+    <string name="ac_c90">小欧无法控制空调，请先启动发动机后重试</string>
+    <string name="ac_c91">小欧无法打开，请启动发动机后重试</string>
+    <string name="backdoor_c7">小欧无法打开后备箱，请先启动发动机后重试</string>
+    <string name="backdoor_c8">为了你的安全，请在车辆静止时打开后备箱</string>
+    <string name="skylight_c1">天窗透气已打开</string>
+    <string name="skylight_c2">好的，正在打开天窗透气</string>
+    <string name="skylight_c3">车外正在下雨，确定打开天窗吗</string>
+    <string name="skylight_c4">天窗透气已关闭</string>
+    <string name="skylight_c5">好的，正在关闭天窗</string>
+    <string name="skylight_c6">好的，正在打开天窗</string>
+    <string name="skylight_c7">车外正在下雨，确定打开天窗吗</string>
+    <string name="skylight_c8">天窗已打开</string>
+    <string name="skylight_c9">好的，正在打开天窗</string>
+    <string name="skylight_c10">好的，天窗已开%1$s</string>
+    <string name="skylight_c11">车外正在下雨，确定打开天窗吗</string>
+    <string name="skylight_c12">好的，天窗已打开%1$s</string>
+    <string name="skylight_c13">天窗已打开%1$s</string>
+    <string name="skylight_c14">天窗已关闭</string>
+    <string name="skylight_c15">好的，正在关闭天窗</string>
+    <string name="skylight_c23">天窗正在开启中，稍后再试吧</string>
+    <string name="skylight_c24">天窗正在关闭中，稍后再试吧</string>
+    <string name="skylight_c25">遮阳帘正在开启中，稍后再试吧</string>
+    <string name="skylight_c26">遮阳帘正在关闭中，稍后再试吧</string>
+    <string name="skylight_c27">天窗未响应，稍后再试吧</string>
+    <string name="skylight_c28">遮阳帘未响应，稍后再试吧</string>
+    <string name="skylight_c29">你没有启动发动机，小欧无法控制天窗</string>
+    <string name="skylight_c30">你没有启动发动机，小欧无法控制遮阳帘</string>
+
+    <string-array name="local_command">
+        <item>打开蓝牙</item>
+        <item>关闭蓝牙</item>
+        <item>增大亮度</item>
+        <item>降低亮度</item>
+        <item>我在哪里</item>
+        <item>打开导航</item>
+    </string-array>
+
+    <!--车辆控制-->
+    <string name="acC1">空调已打开，现在温度是%1$s度</string>
+    <string name="acC2">好的，已打开</string>
+    <string name="acC3">好的，已关闭</string>
+    <string name="acC4">已为你打开空调，现在是制冷模式</string>
+    <string name="acC5">已切换为制冷模式</string>
+    <string name="acC6">已为你打开空调，现在是制热模式</string>
+    <string name="acC7">已切换为制热模式</string>
+    <string name="acC8">空调已打开，现在温度是%1$s度</string>
+    <string name="acC9">温度已降低，现在温度是%1$s度</string>
+    <string name="acC10">空调已打开，马上就凉快了</string>
+    <string name="acC11">温度已降低，马上就凉快了</string>
+    <string name="acC12">空调已打开，现在温度是%1$s度</string>
+    <string name="acC13">温度已升高，现在温度是%1$s度</string>
+    <string name="acC14">空调已打开，马上就暖和了</string>
+    <string name="acC15">温度已升高，马上就暖和了</string>
+    <string name="acC16">已为你打开空调，温度升高到%1$s度</string>
+    <string name="acC17">已为你打开空调，温度升高到%1$d档</string>
+    <string name="acC18">温度已升高到%1$s度</string>
+    <string name="acC19">现在已升至最高温度，%1$s度</string>
+    <string name="acC20">温度已升高到%1$d档</string>
+    <string name="acC21">温度已升到最高，现在是%1$d档</string>
+    <string name="acC22">已为你打开空调，温度升高到%1$s度</string>
+    <string name="acC23">已为你打开空调，温度升高到%1$d档</string>
+    <string name="acC24">温度已升高到%1$s度</string>
+    <string name="acC25">现在已升至最高温度，%1$s度</string>
+    <string name="acC26">温度已升高到%1$d档</string>
+    <string name="acC27">温度已升到最高，现在是%1$d档</string>
+    <string name="acC28">已为你打开空调，温度降低到%1$s度</string>
+    <string name="acC29">已为你打开空调，温度降低到%1$d档</string>
+    <string name="acC30">温度已降到%1$s度</string>
+    <string name="acC31">现在已降至最低温度，%1$s度</string>
+    <string name="acC32">温度已降低到%1$d档</string>
+    <string name="acC33">温度已降到最低，现在是%1$d档</string>
+    <string name="acC34">已为你打开空调，温度降低到%1$s度</string>
+    <string name="acC35">已为你打开空调，温度降低到%1$d档</string>
+    <string name="acC36">温度已降到%1$s度</string>
+    <string name="acC37">现在已降至最低温度，%1$s度</string>
+    <string name="acC38">温度已降低到%1$d档</string>
+    <string name="acC39">温度已降到最低，现在是%1$d档</string>
+    <string name="acC40">已为你打开空调，并将温度调到最高</string>
+    <string name="acC41">温度已升到最高</string>
+    <string name="acC42">已为你打开空调，温度已调到%1$s度</string>
+    <string name="acC42_1">温度已调到%1$s度</string>
+    <string name="acC43">已为你打开空调，温度已调到%1$d档</string>
+    <string name="acC43_1">温度已调到%1$d档</string>
+    <string name="acC44">已为你打开空调，并将温度调到最低</string>
+    <string name="acC45">温度已降到最低，小心不要感冒哦</string>
+    <string name="acC46">超出温度范围，现在是最高温度，%1$s度</string>
+    <string name="acC47">超出温度范围，现在是最低温度，%1$s度</string>
+    <string name="acC48">暂不支持具体温度调节。温度已升到最高，现在是%1$d档</string>
+    <string name="acC49">暂不支持具体温度调节。温度已降到最低，现在是%1$d档</string>
+    <string name="acC50">已为你打开空调，并将温度调到%1$s度</string>
+    <string name="acC51">已为你打开空调，并将温度调到%1$d档</string>
+    <string name="acC52">温度已调到%1$s度</string>
+    <string name="acC53">暂不支持具体温度调节，已将温度调到%1$d档</string>
+    <string name="acC54">超出温度范围，现在是最高温度，%1$s度</string>
+    <string name="acC55">超出温度范围，现在是最低温度，%1$s度</string>
+    <string name="acC56">温度已调到最高，现在是%1$d档</string>
+    <string name="acC57">温度已调到最低，现在是%1$d档</string>
+    <string name="acC58">已为你打开空调，并将温度调到%1$s度</string>
+    <string name="acC59">已为你打开空调，并将温度调到%1$d档</string>
+    <string name="acC60">温度已调到%1$s度</string>
+    <string name="acC61">温度已调到%1$d档</string>
+    <string name="acC62">已为你打开空调，现在风速为%1$d档</string>
+    <string name="acC63">风速已升高到%1$d档</string>
+    <string name="acC64">风速已开到最大，小心感冒哦</string>
+    <string name="acC65">已为你打开空调，现在风速为%1$d档</string>
+    <string name="acC66">风速已降低到%1$d档</string>
+    <string name="acC67">风速已开到最小</string>
+    <string name="acC68">风速已开到最大，小心别感冒哦</string>
+    <string name="acC69">风速已调到%1$d档</string>
+    <string name="acC70">风速已开到最小</string>
+    <string name="acC71">风速已调到%1$d档</string>
+    <string name="acC72">已将风速开到最大，现在为%1$d档</string>
+    <string name="acC73">已将风速开到最小，现在为%1$d档</string>
+    <string name="acC74">已打开内循环</string>
+    <string name="acC75">已打开外循环</string>
+    <string-array name="acC76">
+        <item>抱歉，暂不支持此功能</item>
+        <item>小欧还不会这个操作</item>
+    </string-array>
+    <string name="acC77">已打开自动循环</string>
+    <string name="acC78">已为你打开空调，并设为吹脸模式</string>
+    <string name="acC79">已打开吹脸模式</string>
+    <string name="acC80">已为你打开空调，并设为吹脚模式</string>
+    <string name="acC81">已打开吹脚模式</string>
+    <string name="acC82">已为你打开空调，并设为吹脸吹脚模式</string>
+    <string name="acC83">已打开吹脸吹脚模式</string>
+    <string name="acC84">已为你打开空调，并设为吹脚除霜模式</string>
+    <string name="acC85">已打开吹脚除霜模式</string>
+    <string name="acC86">已打开前除霜</string>
+    <string name="acC87">已关闭前除霜</string>
+    <string name="acC88">已打开后除霜</string>
+    <string name="acC89">已关闭后除霜</string>
+    <string name="acC90">小欧无法控制空调，请先启动发动机后重试</string>
+    <string name="acC91">空调未响应，稍后再试吧</string>
+
+    <string name="skylightC1">天窗透气已打开</string>
+    <string name="skylightC2">好的，正在打开天窗透气</string>
+    <string name="skylightC3">车外正在下雨，确定打开天窗吗</string>
+    <string name="skylightC4">天窗透气已关闭</string>
+    <string name="skylightC5">好的，正在设置天窗为透气模式</string>
+    <string name="skylightC6">好的，正在打开天窗</string>
+    <string name="skylightC7">车外正在下雨，确定打开天窗吗</string>
+    <string name="skylightC8">天窗已打开</string>
+    <string name="skylightC9">好的，正在打开天窗</string>
+    <string name="skylightC10">好的，天窗已开%1$s</string>
+    <string name="skylightC11">车外正在下雨，确定打开天窗吗</string>
+    <string name="skylightC12">好的，天窗已打开%1$s</string>
+    <string name="skylightC13">天窗已打开%1$s</string>
+    <string name="skylightC14">天窗已关闭</string>
+    <string name="skylightC15">好的，正在关闭天窗</string>
+    <string name="skylightC16">好的，正在打开遮阳帘</string>
+    <string name="skylightC17">遮阳帘已打开</string>
+    <string name="skylightC18">好的，正在关闭遮阳帘</string>
+    <string name="skylightC19">正在为你关闭天窗，并关闭遮阳帘</string>
+    <string name="skylightC20">遮阳帘已关闭</string>
+    <string name="skylightC21">这个车没有天窗</string>
+    <string name="skylightC22">这个车没有遮阳帘</string>
+    <string name="skylightC23">天窗正在开启中，稍后再试吧</string>
+    <string name="skylightC24">天窗正在关闭中，稍后再试吧</string>
+    <string name="skylightC25">遮阳帘正在开启中，稍后再试吧</string>
+    <string name="skylightC26">遮阳帘正在关闭中，稍后再试吧</string>
+    <string name="skylightC27">天窗未响应，稍后再试吧</string>
+    <string name="skylightC28">遮阳帘未响应，稍后再试吧</string>
+    <string name="skylightC29">你没有启动发动机，小欧无法控制天窗</string>
+    <string name="skylightC30">你没有启动发动机，小欧无法控制遮阳帘</string>
+    <string name="carwindow_c1">%1$s已经完全打开了</string>
+    <string name="carwindow_c2">好的，正在打开%1$s车窗</string>
+    <string name="carwindow_c3">好的，正在打开%1$s车窗</string>
+    <string name="carwindow_c4">车外正在下雨，确定打开%1$s车窗吗</string>
+    <string name="carwindow_c18">车外正在下雨，确定打开%1$s车窗吗</string>
+    <string name="carwindow_c19">好的，正在开启%1$s车窗</string>
+    <string name="carwindow_c21">车窗暂不支持语音控制</string>
+    <string name="carwindow_c22">车窗未响应，稍后再试吧</string>
+    <string name="carwindow_c23">你没有启动发动机，小欧无法控制车窗</string>
+    <string name="carwindow_c24">车窗出现防夹保护，试着手动操作吧</string>
+    <string name="atmospherelampC1">氛围灯打开了</string>
+    <string name="atmospherelampC2">已关闭氛围灯</string>
+    <string name="atmospherelampC2_1">你没有启动发动机，小欧无法控制氛围灯</string>
+    <string name="atmospherelampC2_3">点亮及调节氛围灯，需要先打开位置灯</string>
+    <string name="atmospherelampC3">氛围灯颜色切换好了</string>
+    <string name="atmospherelampC4">设置失败了，试着手动设定吧</string>
+    <string-array name="atmospherelampC5">
+        <item>氛围灯调亮了</item>
+        <item>氛围灯已调亮</item>
+    </string-array>
+    <string name="atmospherelampC5_1">氛围灯亮度已调到最大，当前亮度为#MAXNUM#</string>
+    <string name="atmospherelampC5_2">氛围灯亮度设置好了</string>
+    <string name="atmospherelampC5_3">氛围灯亮度已调到最小，当前亮度为#MINNUM#</string>
+    <string-array name="atmospherelampC6">
+        <item>氛围灯调暗了</item>
+        <item>氛围灯已调暗</item>
+    </string-array>
+    <string name="atmospherelampC7">已打开氛围灯律动模式</string>
+    <string name="atmospherelampC8">已关闭氛围灯律动模式</string>
+    <string name="atmospherelampC9">这个车没有氛围灯</string>
+    <string name="atmospherelampC10">氛围灯暂不支持随音乐律动</string>
+    <string name="atmospherelampC11">氛围灯未响应，稍后再试吧</string>
+
+    <string name="slidingdoorC1">没有中滑门，小欧不需要这么做</string>
+    <string name="slidingdoorC2">没有中滑门，小欧不需要这么做</string>
+    <string-array name="frontcoverC1">
+        <item>抱歉，这个操作还不支持</item>
+        <item>抱歉，我没办法打开前罩</item>
+    </string-array>
+    <string-array name="frontcoverC2">
+        <item>抱歉，这个操作还不支持</item>
+        <item>抱歉，我没办法关闭前罩</item>
+    </string-array>
+
+    <string name="backdoorC1">后备箱暂不支持语音控制</string>
+    <string name="backdoorC2">好的，正在打开后备箱</string>
+    <string name="backdoorC3">后备箱已打开</string>
+    <string name="backdoorC4">后备箱暂不支持语音控制</string>
+    <string name="backdoorC5">好的，正在关闭后备箱</string>
+    <string name="backdoorC6">后备箱已关闭</string>
+    <string name="backdoorC7">小欧无法打开后备箱，请先启动发动机后重试</string>
+    <string name="backdoorC8">为了你的安全，请在车辆静止时打开后备箱</string>
+    <string name="backdoorC9">后备箱正在开启中，稍后再试吧</string>
+    <string name="backdoorC10">后备箱正在关闭中，稍后再试吧</string>
+    <string name="backdoorC11">电动背门未响应，稍后再试吧</string>
+
+    <string name="carwindowC1">%1$s车窗已经完全打开了</string>
+    <string name="carwindowC2">好的，正在打开%1$s车窗</string>
+    <string name="carwindowC3">好的，正在打开%1$s车窗</string>
+    <string name="carwindowC4">车外正在下雨，确定打开%1$s车窗吗</string>
+    <string name="carwindowC5">正在打开%1$s车窗，小心着凉</string>
+    <string name="carwindowC6">好的，已取消</string>
+    <string name="carwindowC7">%1$s车窗已关闭</string>
+    <string name="carwindowC8">好的，正在关闭%1$s车窗</string>
+    <string name="carwindowC9">%1$s车窗透气已经打开了</string>
+    <string name="carwindowC10">好的，正在开启%1$s车窗透气模式</string>
+    <string name="carwindowC11">好的，正在开启%1$s车窗透气模式</string>
+    <string name="carwindowC12">车外正在下雨，确定打开%1$s车窗吗</string>
+    <string name="carwindowC13">正在开启%1$s车窗透气模式</string>
+    <string name="carwindowC14">好的，已取消</string>
+    <string name="carwindowC15">%1$s车窗已打开</string>
+    <string name="carwindowC16">好的，正在设置%1$s车窗位置</string>
+    <string name="carwindowC17">好的，正在开启%1$s车窗</string>
+    <string name="carwindowC18">车外正在下雨，确定打开%1$s车窗吗</string>
+    <string name="carwindowC19">正在开启%1$s车窗</string>
+    <string name="carwindowC20">好的，已取消</string>
+    <string name="carwindowC21">车窗暂不支持语音控制</string>
+    <string name="carwindowC22">车窗未响应，稍后再试吧</string>
+
+    <string name="wiperC1">雨刮打开了</string>
+    <string name="wiperC2">好的，雨刮关闭了</string>
+    <string name="wiperC3">雨刮暂不支持语音控制</string>
+    <string name="wiperC4">小欧无法控制雨刮，请先启动发动机后重试</string>
+    <string name="wiperC5">雨刮未响应，稍后再试吧</string>
+
+    <string name="dvrC1">行车记录仪拍照完成了</string>
+    <string name="dvrC2">你的行车记录仪好像不能拍照了，先检查下再试吧</string>
+    <string name="dvrC2_1">未检测到存储卡，拍摄失败</string>
+    <string name="dvrC2_2">存储卡损坏，拍摄失败</string>
+    <string name="dvrC2_3">存储卡容量不足，请及时清理</string>
+    <string name="dvrC2_4">好的</string>
+    <string name="dvrC2_5">你的行车记录仪好像不能录像了，先检查下再试吧</string>
+    <string name="dvrC2_6">未检测到存储卡，录像失败</string>
+    <string name="dvrC2_7">存储卡损坏，录像失败</string>
+    <string name="dvrC2_8">存储卡容量不足，请及时清理</string>
+    <string name="dvrC3">好的，正在打开</string>
+    <string name="dvrC4">已关闭</string>
+    <string name="dvrC5">这个车没有行车记录仪</string>
+    <string name="dvrC6">行车记录仪未响应，稍后再试吧</string>
+
+    <string name="cameraC1">好的，已为你拍照</string>
+    <string name="tpmC1">好的，正在打开</string>
+    <string name="tpmC2">已关闭</string>
+    <string name="parkingC1">好的</string>
+    <string name="parkingC2">当前车速高于30，请减速后重试</string>
+    <string name="parkingC3">泊车系统开启超时，请稍后重试</string>
+    <string name="parkingC4">泊车系统开启异常，请稍后重试</string>
+    <string name="parkingC4_1">这个车没有自动泊车功能，#VOICENAME#不需要这么做</string>
+    <string name="parkingC4_2">你没有启动发动机，小欧无法控制泊车功能</string>
+    <string name="panoramicC1">好的，正在打开</string>
+    <string name="panoramicC2">全景未响应，稍后再试吧</string>
+    <string name="panoramicC3">你没有启动发动机，小欧无法控制全景</string>
+    <string name="panoramicC5">好的，已关闭</string>
+
+    <!--系统控制-->
+    <string name="systemC1">屏幕已经最亮了</string>
+    <string name="systemC2">屏幕已经最暗了</string>
+    <string name="systemC3">已将屏幕调暗</string>
+    <string name="systemC4">屏幕已经最暗了</string>
+    <string name="systemC5">已将屏幕调亮</string>
+    <string name="systemC6">屏幕已经最亮了</string>
+    <string name="systemC7">已将屏幕亮度调到%1$d</string>
+    <string name="systemC8">屏幕已调到最亮，当前亮度为%1$d</string>
+    <string name="systemC9">屏幕已调到最暗，当前亮度为%1$d</string>
+    <string-array name="systemC10">
+        <item>蓝牙已打开</item>
+        <item>好的，蓝牙已经打开了</item>
+    </string-array>
+    <string-array name="systemC12">
+        <item>蓝牙已关闭</item>
+        <item>好的，已关闭蓝牙</item>
+    </string-array>
+    <string-array name="systemC14">
+        <item>WIFI已打开</item>
+        <item>好的，WIFI已经打开了</item>
+    </string-array>
+    <string-array name="systemC16">
+        <item>WIFI已关闭</item>
+        <item>好的，已关闭WIFI</item>
+    </string-array>
+    <string name="hicarC1">好的，已打开</string>
+    <string name="hicarC2">已关闭</string>
+    <string name="systemC24">好的，正在打开</string>
+    <string name="systemC25">已关闭</string>
+    <string name="systemC26">导航音量已调至%1$d</string>
+    <string name="systemC27">导航音量已经最大了，现在音量是%1$d</string>
+    <string name="systemC28">导航音量已调至%1$d</string>
+    <string name="systemC29">导航已静音</string>
+    <string name="systemC30">电话音量已调至%1$d</string>
+    <string name="systemC31">电话音量已经最大了，现在音量是%1$d</string>
+    <string name="systemC32">电话音量已调至%1$d</string>
+
+    <string name="systemC33">电话音量已静音</string>
+    <string name="systemC34">小欧音量已调至%1$d</string>
+    <string name="systemC35">小欧音量已经最大了，现在音量是%1$d</string>
+    <string name="systemC36">小欧音量已调至%1$d</string>
+    <string name="systemC37">小欧已静音</string>
+    <string name="systemC38">媒体音量已调至%1$d</string>
+    <string name="systemC39">媒体音量已经最大了，现在音量是%1$d</string>
+    <string name="systemC40">媒体音量已调至%1$d</string>
+    <string name="systemC41">媒体已静音</string>
+    <string name="systemC41_1">媒体音量已调至#NUM#</string>
+    <string name="systemC41_2">媒体音量已经最大了，现在音量是#MAXNUM#</string>
+    <string name="systemC41_3">导航音量已调至#NUM#</string>
+    <string name="systemC41_4">导航音量已经最大了，现在音量是#MAXNUM#</string>
+    <string name="systemC41_5">媒体音量已调至#NUM#</string>
+    <string name="systemC41_6">媒体已静音</string>
+    <string name="systemC41_7">导航音量已调至#NUM#</string>
+    <string name="systemC41_8">导航已静音</string>
+    <string name="systemC42">好的，%1$s音量已设置为%2$d</string>
+
+    <string name="systemC43">%1$s音量已调到最大，当前音量为%2$d</string>
+    <string name="systemC44">%1$s音量已调为静音</string>
+    <string name="systemC44_1">%1$s音量已调为静音</string>
+    <string name="systemC44_2">%1$s音量已打开</string>
+    <string name="systemC45">已静音</string>
+    <string name="systemC46">已取消静音</string>
+    <string name="systemC47">WIFI已连接</string>
+    <string name="systemC48">WIFI已断开</string>
+    <string name="systemC49">蓝牙已连接</string>
+    <string name="systemC50">蓝牙已断开</string>
+    <string name="systemC22">好的</string>
+    <string name="systemC23">好的</string>
+    <string name="carsettingC1">好的，已打开</string>
+    <string name="carsettingC2">已关闭</string>
+
+    <string name="feedbackC1">开始吐槽吧，小欧听着呢</string>
+
+    <!--新手引导-->
+    <string name="greetingtts1">Hi 我是你的专属语音助手小欧，很高兴认识你！我可以帮你做很多事，现在让我们一起来试试吧</string>
+    <string name="greeting1">Hi~我是小欧，很高兴认识你</string>
+    <string name="greetingtts3">首先，在需要我时你要先召唤我，你可以点击方向盘上的语音按键</string>
+    <string name="greeting21">请点击方向盘上的语音按键召唤小欧</string>
+    <string name="greetingtts4">正在体验召唤小欧，请点击方向盘上的语音按键</string>
+    <string name="greeting22">体验未能完成</string>
+    <string name="greetingtts5">召唤成功！恭喜你已经掌握语音按键召唤我的技能</string>
+    <string name="greeting23">召唤成功！恭喜你已经掌握第一项技能！</string>
+    <string name="greetingtts6">你还可以使用我的名字召唤我，请说：“你好小欧”</string>
+    <string name="greeting31">请说：“你好小欧”</string>
+    <string name="greetingtts7">正在体验语音召唤，请说：“你好小欧”</string>
+    <string name="greetingtts10">现在你可以尝试让我帮你控制车辆，请说：“打开空调”</string>
+    <string name="greetingtts11">正在体验语音控制，请说 ：“打开空调”</string>
+    <string name="greeting41">请说：“打开空调”</string>
+    <string name="greetingtts9">好棒，再次召唤成功！恭喜你已经掌握语音召唤技能，以后你可以随时召唤我！</string>
+    <string name="greeting33">召唤成功！恭喜你已完全掌握召唤小欧的技能！</string>
+    <string name="greetingtts12">我已帮你打开空调恭喜你已经掌握语音的第三项技能，你可以随时使用语音指令控制你的爱车了</string>
+    <string name="greeting42">空调已打开恭喜你掌握第三项技能，使用语音指令控制爱车</string>
+    <string name="greetingtts13">你还可以让我帮你打开车窗、开启导航、听音乐、打电话。小欧随时等候你的指令。</string>
+    <string name="greeting43">你可以用小欧“打开车窗、开启导航、听音乐、打电话……”更多非凡语音技能等你体验</string>
+    <string name="greetingtts14">我还有一项神秘技能，在某些界面你不用说“你好小欧”，也可给我下达指令</string>
+    <string name="greeting51">神秘技能不用召唤，可直接下达语音指令</string>
+    <string name="greetingtts15">当你看到按钮时，可以直接发出指令，比如："组队"</string>
+    <string name="greeting52">请说：“组队”</string>
+    <string name="greetingtts16">正在体验可见即可说，请说“组队”</string>
+    <string name="greetingtts18">导航页面已发生变化，你发现了吗？</string>
+    <string name="greetingtts19">恭喜掌握第四项语音技能，你太棒了！</string>
+    <string name="greeting55">恭喜你掌握“可见即可说”技能</string>
+    <string name="greetingtts20">除了导航，在音乐和电台等页面也有很多按钮让你“可见即可说”。只要你说，我就能懂</string>
+    <string name="greeting56">导航、音乐、电台、信息通知等页面均有“可见即可说”功能，等待你发现使用</string>
+    <string name="greetingtts21">现在你已经掌握召唤和控制我的技能，你可以让我帮你打电话，放音乐，开天窗</string>
+    <string name="greeting61">恭喜你，已经掌握召唤和控制我的技能！</string>
+    <string name="greetingtts22">想要了解我的更多技能可以点击屏幕右下方设置按钮查看</string>
+    <string name="greeting62">了解更多，请点击语音设置按钮查看</string>
+    <string name="greetingtts23">小欧一直在你身边</string>
+    <string name="greetingfail">小欧还有很多你不知道的技能，要不再试试？</string>
+
+    <!--车信-->
+    <string name="chexin_no_login">车信未登录，请先扫码登录</string>
+    <string name="chexin_send_who">好的，发给谁呢？</string>
+    <string name="chexin_no_contact">很抱歉，未找到#CONTACT#</string>
+    <string name="chexin_leave_message_after_drop">好的，请在滴的一声后留言</string>
+    <string name="chexin_which_one">为你找到多个#CONTACT#，请说第几个？</string>
+    <string name="chexin_find_contact_error">好的，想发给谁?</string>
+    <string name="chexin_sending_message"> 好的，正在发消息给#CONTACT#</string>
+    <string name="chexin_send_which_one"> 找到多个#CONTACT#，发给第几个</string>
+    <string name="chexin_input_amount">好的，请输入红包金额</string>
+    <string name="chexin_confirmation_amount"> 红包已包好，请确认红包金额</string>
+    <string name="chexin_send_red_envelopes_to_which_one">找到多个#CONTACT#，发给哪个呢？</string>
+    <string name="chexin_send_position">好的，正在分享当前位置给#CONTACT#</string>
+    <string name="chexin_open">车信正在打开</string>
+
+
+    <!--人脸识别-->
+    <string-array name="msg_c76">
+        <item>知道你想抽烟，小欧为你打开车窗和空调透气好吗？请说确定或取消</item>
+        <item>又想抽烟了吗，让小欧为你打开空调及车窗，好吗？请说确定或取消</item>
+    </string-array>
+    <string-array name="msg_c76_1">
+        <item>知道你想抽烟，小欧为你打开天窗和空调透气好吗？请说确定或取消</item>
+        <item>又想抽烟了吗，让小欧为你打开空调及天窗，好吗？请说确定或取消</item>
+    </string-array>
+    <string-array name="msg_c77">
+        <item>知道你想抽烟，小欧为你打开车窗透透气好吗？请说确定或取消</item>
+        <item>又想抽烟了吗，让小欧为你打开车窗，好吗？请说确定或取消</item>
+    </string-array>
+    <string-array name="msg_c77_1">
+        <item>知道你想抽烟，小欧为你打开天窗透透气好吗？请说确定或取消</item>
+        <item>又想抽烟了吗，让小欧为你打开天窗，好吗？请说确定或取消</item>
+    </string-array>
+    <string-array name="msg_c78">
+        <item>知道你想抽烟，小欧为你打开空调透透气好吗？请说确定或取消</item>
+        <item>又想抽烟了吗，让小欧为你打开空调透透气好吗？请说确定或取消</item>
+    </string-array>
+    <string-array name="msg_c79">
+        <item>少抽一点，行车注意安全</item>
+        <item>不要抽太多，小心驾驶哦</item>
+    </string-array>
+    <string name="msg_C11">记得尽快去加油</string>
+    <string name="msg_C17">记得尽快去充电</string>
+    <string-array name="msg_c80">
+        <item>少抽一点，行车注意安全</item>
+        <item>不要抽太多，小心驾驶哦</item>
+    </string-array>
+    <string name="msg_c81">有需要再叫我</string>
+    <string name="msg_c81_1">请说确定或取消</string>
+    <string name="msg_c81_2">有需要再叫我</string>
+    <string name="msg_c82">手持电话影响行车安全，小欧为你打开蓝牙连接</string>
+    <string name="msg_c83">手持电话影响行车安全，试着使用蓝牙电话吧</string>
+    <string name="msg_c84">你看起来有些疲惫，小欧为你放首歌好吗？</string>
+    <string name="msg_c84_1">你看起来有些疲惫，需要来点笑话吗？</string>
+    <string name="msg_c85">你看起来有些疲惫，找个地方休息会儿吧</string>
+    <string name="msg_c86">你看起来有些疲惫，找个地方休息会儿吧</string>
+    <string name="msg_c86_1">你看起来有些疲惫，需要来点笑话吗</string>
+    <string name="msg_c87">为你播放#SINGER#的#SONG#，听完歌找地方休息会儿吧</string>
+    <string name="msg_c88">即将播放歌曲#SONG#，听完歌找地方休息会儿吧</string>
+    <string name="msg_c89">有需要再叫我#SONG#，听完歌找地方休息会儿吧</string>
+    <string name="msg_c90">有需要再叫我</string>
+    <string name="msg_c91">你在看什么呢，行车时可不要分神哦！</string>
+    <string name="msg_c91_1">你已连续驾驶#NUM#小时，小欧为你放首歌好吗？请说确定或取消</string>
+    <string name="msg_c91_2">你已连续驾驶#NUM#小时，需要来点笑话吗？请说确定或取消</string>
+    <string name="msg_c91_3">你已连续驾驶#NUM#小时，找个地方休息会儿吧</string>
+    <string name="msg_c91_4">你已连续驾驶#NUM#小时，找个地方休息会儿吧</string>
+    <string name="msg_c91_5">你已连续驾驶#NUM#小时，需要来点笑话吗？请说确定或取消</string>
+    <string name="msg_c91_6">为你推荐一首#SONG#，听完歌找地方休息会儿吧</string>
+    <string name="msg_c91_7">有需要再叫我</string>
+    <string name="msg_c91_9">有需要再叫我</string>
+    <string name="msg_c91_10">请说确定或取消</string>
+    <string name="msg_c91_11">有需要再叫我</string>
+    <string name="msg_c90_2">有需要再叫我</string>
+
+    <!--座椅模式-->
+    <string name="seat_c1">座椅已处于#MODEL#模式</string>
+    <string name="seat_c2">正在将座椅调到驾驶模式，祝你一路平安</string>
+    <string name="seat_c3">正在将座椅调到休息模式，好好休息会儿吧</string>
+    <string name="seat_c4">正在将座椅调到休息模式，好好休息会儿吧</string>
+    <string name="seat_c5">正在将座椅调到休息模式，需要来首音乐吗？</string>
+    <string name="seat_c6">行驶中小欧无法调节座椅位置</string>
+    <string name="seat_c7">非P档小欧无法调节座椅位置</string>
+    <string name="seat_c7_1">制动踏板被踩下，小欧无法控制座椅休息模式</string>
+    <string name="seat_c11">有需要再叫我</string>
+    <string name="seat_c12">座椅已处于休息模式，无需保存</string>
+    <string name="seat_c13">已将当前座椅位置保存为休息模式</string>
+    <string name="seat_c14">这个车没有电动座椅</string>
+    <string name="seat_c15">行驶中小欧无法保存座椅位置</string>
+    <string name="seat_c16">非P档小欧无法保存座椅位置</string>
+    <string name="seat_c17">你已调节座椅休息位置，确定保存吗，请说确定或取消？</string>
+    <string name="seat_c18">好的</string>
+    <string name="seat_c19">。</string>
+
+    <!--APA-->
+    <string name="apa_c1">请减速</string>
+    <string name="apa_c2">当前车速超过30，泊车已退出</string>
+    <string name="apa_c3">请前行寻找车位</string>
+    <string name="apa_c4">请前行寻找车位</string>
+    <string name="apa_c5">请停车，车位已找到</string>
+    <string name="apa_c6">请选择车位</string>
+    <string name="apa_c7">请选择泊车方式</string>
+    <string name="apa_c8">请系好安全带</string>
+    <string name="apa_c9">请关好车门</string>
+    <string name="apa_c10">请踩刹车</string>
+    <string name="apa_c11">请将挡位拨为自动模式</string>
+    <string name="apa_c12">泊车开始，请注意周边环境，随时接管车辆</string>
+    <string name="apa_c13">请点击确认是否恢复泊车</string>
+    <string name="apa_c14">泊车已完成，下车注意安全</string>
+    <string name="apa_c15">前方空间充足，无需自动泊出</string>
+    <string name="apa_c16">车位空间不足，泊车系统退出</string>
+    <string name="apa_c17">请注意周围环境，选择泊出方向</string>
+    <string name="apa_c18">请挂P档</string>
+    <string name="apa_c19">请系好安全带</string>
+    <string name="apa_c20">请关好车门</string>
+    <string name="apa_c21">请将挡位拨为自动模式</string>
+    <string name="apa_c22">泊车开始，请注意周边环境，随时接管车辆</string>
+    <string name="apa_c23">请点击确认是否恢复泊车</string>
+    <string name="apa_c24">泊出成功，开始你的行程吧</string>
+    <string name="apa_c25">坡度过大，泊车退出</string>
+    <string name="apa_c26">请立即接管车辆，系统异常</string>
+    <string name="apa_c27">请立即接管车辆，系统异常</string>
+    <string name="apa_c28">请立即接管车辆，系统异常</string>
+    <string name="apa_c29">移动障碍物侵入，泊车退出</string>
+    <string name="apa_c30">泊车退出</string>
+    <string name="apa_c31">安全带松开，泊车暂停</string>
+    <string name="apa_c32">车门打开，泊车暂停</string>
+    <string name="apa_c33">干预换挡，泊车暂停</string>
+    <string name="apa_c34">干预油门，泊车暂停</string>
+    <string name="apa_c35">下车使用遥控泊车时，请随时注意周围环境</string>
+    <string name="apa_c36">手刹拉起，泊车暂停</string>
+    <string name="apa_c49">当前车位过窄，推荐下车使用遥控泊车</string>
+    <string name="apa_c4b">空间不足，泊车退出</string>
+    <string name="apa_c39">当前位置不便于下车，推荐使用一键召唤</string>
+    <string name="apa_c53">下车注意安全</string>
+    <string name="apa_c54">请拨档位为自动模式</string>
+
+    <string name="driving_mode_c1">当前已是#MODEL#模式</string>
+    <string name="driving_mode_c2">已为你切换到#MODEL#模式</string>
+    <string name="driving_mode_c3">你没有启动发动机，小欧无法控制驾驶模式</string>
+    <string name="driving_mode_c4">上坡更轻松，确定切换到运动模式吗？</string>
+    <string name="driving_mode_c5">上坡已结束，确定切回原来的驾驶模式吗？</string>
+    <string name="driving_mode_c6">超车更容易，确定切换到运动模式吗？</string>
+    <string name="driving_mode_c6_1">确定切回原来的驾驶模式吗？</string>
+    <string name="driving_mode_c7">下坡更省油，确定切换到经济模式吗？</string>
+    <string name="driving_mode_c8">已切换</string>
+    <string name="driving_mode_c9">。</string>
+
+    <string name="yinyue_c38">没有媒体在播放，#VOICENAME#不需要这么做</string>
+
+    <string name="air_default_msgC92">森林空气净化已开启</string>
+    <string name="air_warm">空调提醒</string>
+
+    <!--后除霜-->
+    <string name="defC1">#NAME#已打开</string>
+    <string name="defC2">正在打开#NAME#</string>
+    <string name="defC3">#NAME#已关闭</string>
+    <string name="defC4">正在关闭#NAME#</string>
+    <string name="defC5">这个车没有#NAME#</string>
+    <string name="defC6">车身控制器异常，小欧无法控制#NAME#</string>
+    <string name="defC7">小欧无法控制#NAME#，请先启动发动机后重试</string>
+    <string name="defC7_1">小欧无法控制#NAME#，请先上电后重试</string>
+    
+    <!--唱吧-->
+    <string name="changbaC1">已打开，想唱点什么？</string>
+    <string name="changbaC1_1">好的，想唱点什么？</string>
+    <string name="changbaC1_2">好的</string>
+    <string name="changbaC1_3">好的，想唱点什么？</string>
+    <string name="changbaC2">。</string>
+    <string name="changbaC3">网络未连接，已为你打开唱吧</string>
+    <string name="changbaC4">网络未连接，请稍后再试</string>
+    <string name="changbaC5">。</string>
+    <string name="changbaC6">我也很喜欢#SONG#</string>
+    <string name="changbaC7">歌曲涉及版权，请先登录</string>
+    <string name="changbaC7_1">歌曲涉及版权，快来开通会员</string>
+    <string name="changbaC7_2">我也很喜欢#SONG#</string>
+    <string name="changbaC8">未找到该歌曲，换首歌试试</string>
+    <string name="changbaC9">请求超时，稍后再试</string>
+    <string name="changbaC10">。</string>
+    <string name="changbaC11">网络未连接，已为你打开唱吧</string>
+    <string name="changbaC12">网络未连接，请稍后再试</string>
+    <string name="changbaC13">。</string>
+    <string name="changbaC14">我也很喜欢#SINGER#的歌</string>
+    <string name="changbaC15">歌曲涉及版权，请先登录</string>
+    <string name="changbaC15_1">歌曲涉及版权，快来开通会员</string>
+    <string name="changbaC15_2">我也很喜欢#SINGER#的歌</string>
+    <string name="changbaC16">未找到该歌手，换个歌手试试</string>
+    <string name="changbaC17">请求超时，稍后再试</string>
+    <string name="changbaC18">。</string>
+    <string name="changbaC19">网络未连接，已为你打开唱吧</string>
+
+    <string name="changbaC20">网络未连接，请稍后再试</string>
+    <string name="changbaC21">。</string>
+    <string name="changbaC22">我也很喜欢#SINGER#的#SONG#</string>
+    <string name="changbaC23">歌曲涉及版权，请先登录</string>
+    <string name="changbaC23_1">歌曲涉及版权，快来开通会员</string>
+    <string name="changbaC23_2">我也很喜欢#SINGER#的#SONG#</string>
+    <string name="changbaC24">未找到该歌曲，换首歌试试</string>
+    <string name="changbaC25">请求超时，稍后再试</string>
+    <string name="changbaC26">想唱第几个，或说下一页</string>
+    <string name="changbaC27">好的，选择请说第几个</string>
+    <string name="changbaC28">当前已是最后一页</string>
+    <string name="changbaC29">好的，选择请说第几个</string>
+    <string name="changbaC30">当前已是第一页</string>
+    <string name="changbaC31">好的</string>
+    <string name="changbaC31_1">歌曲涉及版权，请先登录</string>
+    <string name="changbaC31_2">歌曲涉及版权，快来开通会员</string>
+    <string name="changbaC32">当前页面仅有#MAXNUM#个结果，选择第几个？</string>
+    <string name="changbaC33">好的</string>
+    <string name="changbaC34">没有歌曲在演唱，小欧不需要这么做</string>
+    <string name="changbaC35">好的</string>
+    <string name="changbaC36">好的</string>
+    <string name="changbaC37">好的</string>
+    <string name="changbaC37_1">曲库已空，请点歌</string>
+    <string name="changbaC38">好的</string>
+    <string name="changbaC39">好的</string>
+    <string name="changbaC40">你已打开伴唱</string>
+    <string name="changbaC41">好的</string>
+    <string name="changbaC42">你已打开原唱</string>
+    <string name="changbaC43">好的</string>
+    <string name="changbaC44">小欧不需要这么做</string>
+    <string name="helpC1">我会的可多了，快来看看吧</string>
+    <string name="datetimeXC1">。</string>
+
+
+    <string name="btnC1">#SOURCE#</string>
+    <string name="btnC2">系统已静音</string>
+    <string name="btnC3">已解除静音</string>
+    <string name="btnC4">请点火后使用ESP车身电子稳定系统</string>
+    <string name="btnC5">ESP车身电子稳定系统当前处于开启状态，如需关闭请长按1秒</string>
+    <string name="btnC6">已关闭ESP车身电子稳定系统，请注意行车安全</string>
+    <string name="btnC7">已开启ESP车身电子稳定系统</string>
+    <string name="btnC8">照片已上传至顺风耳，下次试试长按录像功能吧</string>
+    <string name="btnC9">小视频已上传至顺风耳</string>
+    <string name="btnC10">未检测到存储卡，拍摄失败</string>
+    <string name="btnC11">存储卡损坏，拍摄失败</string>
+    <string name="btnC12">存储卡容量不足，请及时清理</string>
+    <string name="btnC13">分享失败，请先进行实名认证</string>
+    <string name="btnC14">分享失败，网络恢复后将自动上传</string>
+    <string name="btnC15">云盘容量不足，请及时清理</string>
+    <string name="btnC16">未开通云盘，请前往欧尚StyleAPP完成注册</string>
+    <string name="btnC17">请挂P档后再开启电动背门</string>
+    <string name="btnC18">正在开启电动背门，请注意安全</string>
+    <string name="btnC19">正在关闭电动背门，请注意安全</string>
+    <string name="btnC20">正在开启电动背门，请注意安全</string>
+    <string name="btnC21">正在关闭电动背门，请注意安全</string>
+    <string name="btnC22">当前车速高于35，陡坡缓降功能已关闭</string>
+    <string name="btnC23">当前车速高于40，陡坡缓降功能无法开启</string>
+    <string name="btnC24">已关闭陡坡缓降功能</string>
+    <string name="btnC25">已开启陡坡缓降功能</string>
+    <string name="btnC26">1分钟后将关机，要继续使用请启动车辆</string>
+    <string name="btnC27">整车2分钟后将下电，要继续使用请启动车辆</string>
+    <string name="btnC28">整车2分钟后将下电，要继续使用请启动车辆</string>
+    <string name="btnC29">已＃ACTION＃AUTOHOLD自动驻车功能</string>
+    <string name="btnC30">请关好车门后重试</string>
+    <string name="btnC31">请点火后使用AUTOHOLD自动驻车功能</string>
+    <string name="btnC32">请关好车门，点火后重试</string>
+    <string name="btnC33">请系好安全带后重试</string>
+    <string name="btnC34">AUTOHOLD自动驻车功能开启失败，请检查车况后重试</string>
+    <string name="btnC35">当前车速高于30，泊车功能无法使用</string>
+    <string name="btnC36">参见自动泊车语音引导</string>
+    <string name="btnC37">＃MODE＃</string>
+    <string name="btnC38">车门已＃ACTION＃</string>
+    <string name="btnC39">请关好车门再闭锁</string>
+    <string name="btnC40">乘员侧车窗已＃ACTION＃</string>
+    <string name="btnC41">车窗自动升降需学习，请将#POSITION#车窗升顶一次</string>
+    <string name="btnC42">车窗自动升降需学习，请将#POSITION#车窗升顶一次</string>
+    <string name="btnC43">下次可直接对小欧说“温度高一点、温度低一点”</string>
+    <string name="btnC44">已开启森林空气净化系统，下次可唤醒小欧后说“打开空调”</string>
+    <string name="btnC45">已开启森林空气净化系统</string>
+    <string name="btnC46">已开启前挡玻璃除雾模式，下次可唤醒小欧后说“打开或关闭前除霜”</string>
+    <string name="btnC47">前除霜已#ACTION#</string>
+    <string name="btnC48">后档玻璃除雾模式已＃ACTION＃，下次可唤醒小欧后说“打开或关闭后除霜”</string>
+    <string name="btnC49">后档玻璃除雾模式已＃ACTION＃</string>
+    <string name="btnC48_1">后档玻璃除霜和后视镜加热已＃ACTION＃，下次可唤醒小欧后说“打开或关闭后除霜”</string>
+    <string name="btnC49_1">后档玻璃除霜和后视镜加热模式已＃ACTION＃</string>
+    <string name="btnC50">空调已关闭，下次可唤醒小欧后说“关闭空调”</string>
+    <string name="btnC51">已开启森林空气净化系统，下次可唤醒小欧后说“打开空调”</string>
+    <string name="btnC52">＃MODE＃</string>
+    <string name="btnC53">＃MODE＃</string>
+    <string name="btnC54">已＃ACTION＃空调快速降温模式</string>
+    <string name="btnC55">下次可直接对小欧说“风量大一点或风量小一点”</string>
+    <string name="btnC56">服务尚未激活，请实名认证完成激活</string>
+    <string name="btnC56_1">正在为你连接救援中心，请稍后</string>
+    <string name="btnC56_2">救援中心来电</string>
+    <string name="btnC57">下次可以唤醒小欧后说“打开天窗或天窗开一半”</string>
+    <string name="btnC58">下次可以唤醒小欧后说“关闭天窗”</string>
+    <string name="btnC59">下次可以唤醒小欧后说“打开遮阳帘”</string>
+    <string name="btnC60">下次可以唤醒小欧后说“关闭遮阳帘”</string>
+    <string name="btnC61">已＃ACTION＃自动大灯模式</string>
+    <string name="btnC62">请先开启近光灯再开启后雾灯</string>
+    <string name="btnC63">已开启伴我回家功能，小欧为你照亮回家的路</string>
+    <string name="btnC64">灯光手柄抬至超车档低于2S，可以开启跟随回家功能，大灯会在车辆闭锁X秒后自动关闭</string>
+    <string name="btnC65">已开启间歇雨刮模式</string>
+    <string name="btnC66">已开启自动雨刮模式</string>
+    <string name="btnC67"></string>
+    <string name="btnC68"></string>
+    <string name="btnC69">后雨刮已＃ACTION＃</string>
+    <string name="btnC70">已切换为自动档模式</string>
+    <string name="btnC71">已切换为手动档模式</string>
+    <string name="btnC72">车辆未下电，请前推至P档下电</string>
+    <string name="btnC73">车辆未下电，请向左侧拨动换挡杆并前推至P档后下电</string>
+    <string name="btnC74">请将换挡杆拨到左侧并挂入P档再点火</string>
+    <string name="btnC75">请关好车门</string>
+    <string name="btnC76">请带好随身物品，开门注意安全</string>
+    <string name="btnC77">后方有来车，请注意安全</string>
+    <string name="btnC78">请系好主副驾安全带</string>
+    <string name="btn79">下次可以唤醒小欧说“屏幕亮度低或高一点"</string>
+    <string name="btn80">进入洗车轨道后请松开油门刹车，挂入N档</string>
+    <string name="btn81">洗车模式已退出，离开闭锁功能已启用</string>
+    <string name="btn82">座椅正在调节为休息模式</string>
+    <string name="btn83">请挂入P档后使用座椅休息模式</string>
+    <string name="btn83_1">正在为你调整到驾驶位置</string>
+    <string name="btn84">已关闭导航播报，下次可直接对小欧说“关闭导航声音或打开导航声音”</string>
+    <string name="btn85">已关闭/开启路况，下次可直接对小欧说“关闭或打开路况”</string>
+    <string name="btn86">播报所切换的状态</string>
+    <string name="btn87">下次可直接对小欧说“放大地图、缩小地图”</string>
+    <string name="btn88">下次可直接对小欧说“退出导航”</string>
+    <string name="btn89">下次导航中可直接对小欧说“高速优先、不走高速、避免收费、躲避拥堵”</string>
+    <string name="btn90">下次可直接对小欧说“返回桌面”</string>
+    <string name="btn91">下次可直接对小欧说“暂停播放、开始播放”</string>
+    <string name="btn92">下次可直接对小欧说“下一首”</string>
+    <string name="btn93">下次可直接对小欧说“小欧我要回家”</string>
+    <string name="btn94">下次可直接对小欧说“小欧我要去公司”</string>
+    <string name="btn95">下次可唤醒小欧说“查看天气”</string>
+    <string name="btn96">下次可直接对小欧说“看前边”</string>
+    <string name="btn97">下次可直接对小欧说“看后边”</string>
+    <string name="btn98">下次可直接对小欧说“看左边”</string>
+    <string name="btn99">下次可直接对小欧说“看右边”</string>
+    <string name="btn100">下次可直接对小欧说“看左右”</string>
+    <string name="btn101">下次可直接对小欧说“看前边”</string>
+    <string name="btn102">下次可直接对小欧说“看后边”</string>
+    <string name="btn103">下次可直接对小欧说“看左边”</string>
+    <string name="btn104">下次可直接对小欧说“看右边”</string>
+    <string name="btn105">下次可直接对小欧说“2D视图”</string>
+    <string name="btn106">下次可直接对小欧说“3D视图”</string>
+    <string name="btn107">下次可直接对小欧说“看前边”</string>
+    <string name="btn108">下次可直接对小欧说“看后边”</string>
+    <string name="btn109">下次可直接对小欧说“看左边”</string>
+    <string name="btn110">下次可直接对小欧说“看右边”</string>
+    <string name="btn111">下次可直接对小欧说“组合视图”</string>
+    <string name="btn112">下次可直接对小欧说“看前边”</string>
+    <string name="btn113">下次可直接对小欧说“看后边”</string>
+    <string name="btn114">下次可直接对小欧说“小欧我要拍照”</string>
+    <string name="btn115">下次可直接对小欧说“小欧我要录像”</string>
+    <string name="btn116">下次可直接对小欧说“退出赛道模式”</string>
+    <string name="btn117">下次可直接对小欧说“返回桌面”</string>
+    <string name="btn118">服务尚未激活，请实名认证完成激活</string>
+    <string name="btn119">正在为你连接客服中心，请稍后</string>
+    <string name="videoC3">即将播放#NAME#</string>
+    <string name="videoC4">抱歉，没有找到#NAME#</string>
+    <string name="videoC5">好的，马上换。</string>
+    <string name="videoC7">好的，马上换。</string>
+
+    <string name="factoryC1">好的，已打开</string>
+    <string name="factoryC2">已关闭</string>
+    <string name="factoryC3">好的</string>
+    <string name="factoryC4">截屏成功</string>
+    <string name="factoryC5">截屏出错</string>
+    <string name="factoryC6">好的</string>
+    <string name="factoryC6_1">录屏中，如需暂停请说“停止录屏”</string>
+    <string name="factoryC7">好的</string>
+    <string name="factoryC7_1">如需录屏请说“开始录屏”</string>
+    <string name="factoryC8">录屏成功</string>
+    <string name="factoryC9">录屏出错</string>
+    <string name="factoryC10">好的，请点击一键上传按钮</string>
+    <string name="factoryC12">好的，请点击一键保存按钮</string>
+
+    <string name="smokeC1">正在开启主驾车窗透气</string>
+    <string name="smokeC2">主驾车窗未响应，手动操作吧</string>
+    <string name="smokeC3">主驾车窗已开启</string>
+    <string name="smokeC4">好的，天窗已开启</string>
+
+    <string name="detail_relief">请跟随小欧的引导说出指令,指令将会立即执行</string>
+    <string name="detail_notshown">不再提示</string>
+    <string name="detail_sure">确定</string>
+    <string name="detail_cancel">取消</string>
+    <string name="detail_more">更多</string>
+
+    <!--定速巡航引导-->
+    <string name="ccC1">已开启定速巡航，按下SET键设定当前速度为巡航速度</string>
+    <string name="ccC1_1">欢迎使用欧尚pilot智能驾驶系统，巡航已激活，可松开油门后按RES和SET键调节巡航速度</string>
+    <string name="ccC2">想要使用定速巡航吗，请先按下巡航主开关开启巡航吧</string>
+    <string name="ccC3">定速巡航已激活，当前巡航速度为＃SPEED＃公里／小时</string>
+    <string name="ccC3_1">巡航速度已设置为＃SPEED＃，可松开油门后按RES或SET键调节巡航速度</string>
+    <string name="ccC4">请按下SET键设定巡航速度</string>
+    <string name="ccC4_1">当前车速过低，请将车速提高到40后按下SET键设定巡航速度</string>
+    <string name="ccC5">当前速度过低，请将车速提高到40后重试</string>
+    <string name="ccC5_1">当前手动挡位低，请将挡位拨至2档及以上后重试</string>
+    <string name="ccC5_2">当前自动挡位低，请将挡位拨至3档及以上后重试</string>
+    <string name="ccC6">巡航速度已调至＃SPEED＃</string>
+    <string name="ccC6_1">巡航速度已调至＃SPEED＃，再次按下巡航主开关可退出定速巡航</string>
+    <string name="ccC7">干预刹车，定速巡航已暂停，按下RES键可恢复巡航</string>
+    <string name="ccC7_1">定速巡航已暂停</string>
+    <string name="ccC8">干预离合，定速巡航已暂停，按下RES键可恢复巡航</string>
+    <string name="ccC9">已恢复定速巡航，当前巡航速度为＃SPEED＃</string>
+    <string name="ccC10">检测到你正在加速，按SET键可设定当前速度为巡航速度</string>
+    <string name="ccC11">将恢复设定速度进行巡航</string>
+    <string name="ccC12">定速巡航已关闭</string>
+    <string name="ccC13">定速巡航异常退出，请重新开启使用</string>
+    <string name="ccC14">定速巡航处于开启状态，按下SET键可设定巡航速度</string>
+    <string name="ccC15">定速巡航处于暂停状态，按下RES键可恢复巡航</string>
+    <string name="ccC16">巡航速度已设置为＃SPEED＃，高速驾驶请注意安全</string>
+    <string name="ccC17">已开启定速巡航</string>
+    <string name="ccC18">巡航速度为＃SPEED＃</string>
+    <string name="ccC19">车速过低，请重试</string>
+    <string name="ccC20">手动挡位过低，请重试</string>
+    <string name="ccC21">自动挡位过低，请重试</string>
+    <string name="ccC22">巡航速度调至＃SPEED＃</string>
+    <string name="ccC23">巡航已暂停</string>
+    <string name="ccC24">已恢复，巡航速度为＃SPEED＃</string>
+    <string name="ccC25">定速巡航已关闭</string>
+    <string name="ccC26">定速巡航异常退出</string>
+
+    <!--定速巡航图片文案-->
+    <string name="icon_ccC1">按下SET设定当前巡航速度</string>
+    <string name="icon_ccC1_1">按下SET设定当前巡航速度</string>
+    <string name="icon_ccC2">使用定速巡航请打开主开关</string>
+    <string name="icon_ccC3">当前巡航速度为＃SPEED＃</string>
+    <string name="icon_ccC3_1">按RES或SET键\n调节巡航速度</string>
+    <string name="icon_ccC4">按下SET设定当前巡航速度</string>
+    <string name="icon_ccC4_1">请将车速提高至40km/h</string>
+    <string name="icon_ccC5">请将车速提高至40km/h</string>
+    <string name="icon_ccC5_1">请将车速提高至40km/h</string>
+    <string name="icon_ccC5_2">请将车速提高至40km/h</string>
+    <string name="icon_ccC6">巡航速度已调至＃SPEED＃</string>
+    <string name="icon_ccC7">按下RES可恢复巡航</string>
+    <string name="icon_ccC7_1">按下RES可恢复巡航</string>
+    <string name="icon_ccC8">按下RES可恢复巡航</string>
+    <string name="icon_ccC9">已恢复定速巡航</string>
+    <string name="icon_ccC10">按下SET设定当前巡航速度</string>
+    <string name="icon_ccC11">将恢复设定速度进行巡航</string>
+    <string name="icon_ccC13">定速巡航异常退出</string>
+
+    <string name="msgc129">正在进入休息模式</string>
+    <string name="msgc130">正在进入K歌</string>
+    <string name="msgc131">正在退出K歌</string>
+    <string name="msgc132">开启赛道模式</string>
+    <string name="msgc133">正在为你打开天窗</string>
+    <string name="msgc134">天窗已打开</string>
+    <string name="msgc136">正在开启运动模式</string>
+    <string name="msgc137">正在退出运动模式</string>
+
+    <string-array name="msgC40">
+        <item>你好，有事随时叫我</item>
+        <item>HI，很高兴见到你</item>
+        <item>HI，你好吗？</item>
+        <item>HI，#NOW#好</item>
+        <item>你好，愿你有个好心情！</item>
+    </string-array>
+    <string-array name="msgC41">
+        <item>早上好，昨晚睡得好吗？</item>
+        <item>早，小欧陪你开启满满正能量的一天</item>
+        <item>早上好，愿你今天有个好心情！</item>
+    </string-array>
+    <string-array name="msgC42">
+        <item>晚上好，不管多晚，小欧都陪着你</item>
+        <item>HI，晚上好！</item>
+        <item>晚上好，出门注意安全</item>
+        <item>HI，晚上一起出去浪</item>
+        <item>晚上好，好想你呀</item>
+        <item>嘿，今天过得怎么样，给小欧讲讲</item>
+    </string-array>
+
+    <string name="msgc9">帮你搜索到周围#NUM#个加油站，选择哪一个？</string>
+    <string name="msgc10">帮你搜索到#NUM#个沿途的加油站，选择哪一个？</string>
+    <string name="msgc15">帮你搜索到周围#NUM#个加油站，选择哪一个？</string>
+    <string name="msgc16">帮你搜索到#NUM#个沿途的加油站，选择哪一个？</string>
+
+    <string name="outsidecameraC1">好的</string>
+    <string name="outsidecameraC3">好的</string>
+    <string name="outsidecameraC5">好的</string>
+    <string name="outsidecameraC6">已关闭</string>
+
+    <string name="backvisionC1">好的</string>
+
+    <string name="backvisionC2">已关闭</string>
+    <string name="backvisionC2_1">这个车没有云眼后视仪</string>
+    <string name="avm_custom">好的</string>
+
+    <string name="remotevoiceC2">开始导航，小欧祝你一路顺畅</string>
+
+    <string name="main_c14_1">#VOICENAME#不需要这么做</string>
+
+    <string name="key_btnC79">屏幕亮度调节</string>
+    <string name="key_btnC80">洗车模式</string>
+    <string name="key_btnC81">洗车模式</string>
+    <string name="key_btnC82">休息模式</string>
+    <string name="key_btnC83">休息模式</string>
+    <string name="key_btnC83_1">休息模式</string>
+    <string name="key_btnC84">导航播报开关</string>
+    <string name="key_btnC85">导航路况开关</string>
+    <string name="key_btnC86">导航视角开关</string>
+    <string name="key_btnC87">触控调节地图</string>
+    <string name="key_btnC88">退出导航</string>
+    <string name="key_btnC89">路线偏好设置</string>
+    <string name="key_btnC90">云标</string>
+    <string name="key_btnC91">播放器</string>
+    <string name="key_btnC92">下一首</string>
+    <string name="key_btnC93">回家</string>
+    <string name="key_btnC94">公司</string>
+    <string name="key_btnC95">天气</string>
+    <string name="key_btnC96">全景-2D-前视角按钮</string>
+    <string name="key_btnC97">全景-2D-后视角按钮</string>
+    <string name="key_btnC98">全景-2D-左视角按钮</string>
+    <string name="key_btnC99">全景-2D-右视角按钮</string>
+    <string name="key_btnC100">全景-2D-左右视角按钮</string>
+    <string name="key_btnC101">全景-3D-前视角按钮</string>
+    <string name="key_btnC102">全景-3D-后视角按钮</string>
+    <string name="key_btnC103">全景-3D-左视角按钮</string>
+    <string name="key_btnC104">全景-3D-右视角按钮</string>
+    <string name="key_btnC105">全景-2D视图按钮</string>
+    <string name="key_btnC106">全景-3D视图按钮</string>
+    <string name="key_btnC107">DVR-前视角按钮</string>
+    <string name="key_btnC108">DVR-后视角按钮</string>
+    <string name="key_btnC109">DVR-左视角按钮</string>
+    <string name="key_btnC110">DVR-右视角按钮</string>
+    <string name="key_btnC111">DVR-组合视图按钮</string>
+    <string name="key_btnC112">云眼相机-前视角按钮</string>
+    <string name="key_btnC113">云眼相机-后视角按钮</string>
+    <string name="key_btnC114">云眼相机-拍照按钮</string>
+    <string name="key_btnC115">云眼相机-录像按钮</string>
+    <string name="key_btnC116">赛道模式-退出赛道模式按钮</string>
+    <string name="key_btnC117">赛道模式-返回桌面按钮</string>
+    <string name="key_btnC118">应用屏一点通APP（BCALL）</string>
+    <string name="key_btnC119">应用屏一点通APP（BCALL）</string>
+    <string name="key_btnC120">车控屏-赛道模式</string>
+
+
+</resources>

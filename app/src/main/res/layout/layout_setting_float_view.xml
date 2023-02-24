@@ -1,0 +1,97 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="30px"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_marginLeft="180px"
+        android:layout_marginTop="74px"
+        android:id="@+id/ll_anim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <com.chinatsp.ifly.view.AnimationImageView
+            android:src="@drawable/speech_image"
+            android:id="@+id/iv_anim"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+
+    <TextView
+        android:text="@string/ask_set_name_01"
+        android:id="@+id/tv_deputy_message1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_anim"
+        android:layout_centerHorizontal="true"
+        android:textColor="#777777"
+        android:textSize="@dimen/textSize36px" />
+
+    <TextView
+        android:text="@string/ask_set_name_02"
+        android:id="@+id/tv_deputy_message2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_deputy_message1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5px"
+        android:textColor="#777777"
+        android:textSize="@dimen/textSize36px" />
+
+
+    <LinearLayout
+        android:id="@+id/ll_control"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:visibility="invisible"
+            android:id="@+id/iv_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:src="@drawable/selector_btn_close" />
+
+        <LinearLayout
+            android:id="@+id/ll_voice"
+            android:layout_width="224px"
+            android:layout_height="90px"
+            android:layout_marginStart="40px"
+            android:background="@drawable/bg_voice"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_gravity="center"
+                android:id="@+id/head_main_iv"
+                android:layout_width="46px"
+                android:layout_height="50px"
+                android:src="@drawable/ic_left_voice" />
+
+            <ImageView
+                android:visibility="gone"
+                android:id="@+id/head_second_iv"
+                android:layout_width="46px"
+                android:layout_height="50px"
+                android:layout_marginLeft="54px"
+                android:src="@drawable/ic_voice_unselected" />
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/iv_setting"
+            android:layout_width="58px"
+            android:layout_height="58px"
+            android:layout_marginStart="40px"
+            android:src="@drawable/ic_right_back" />
+
+    </LinearLayout>
+
+</RelativeLayout>

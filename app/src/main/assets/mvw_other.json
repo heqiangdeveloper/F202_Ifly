@@ -1,0 +1,234 @@
+{
+  "Keywords": [
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "返回首页",
+      "KeyWordId": 0
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "返回主页",
+      "KeyWordId": 1
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "返回主界面",
+      "KeyWordId": 2
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "返回桌面",
+      "KeyWordId": 3
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "回到首页",
+      "KeyWordId": 4
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "回到主页",
+      "KeyWordId": 5
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "回到桌面",
+      "KeyWordId": 6
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "回到主界面",
+      "KeyWordId": 7
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "回首页",
+      "KeyWordId": 8
+    },
+
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "回主页",
+      "KeyWordId": 9
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "回桌面",
+      "KeyWordId": 10
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "开始播放",
+      "KeyWordId": 11
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "继续播放",
+      "KeyWordId": 12
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "暂停播放",
+      "KeyWordId": 13
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "停止播放",
+      "KeyWordId": 14
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "下一曲",
+      "KeyWordId": 15
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "下一首",
+      "KeyWordId": 16
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "下一个",
+      "KeyWordId": 17
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "下一台",
+      "KeyWordId": 18
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "上一曲",
+      "KeyWordId": 19
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "上一首",
+      "KeyWordId": 20
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "上一个",
+      "KeyWordId": 21
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "上一台",
+      "KeyWordId": 22
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "声音大一点",
+      "KeyWordId": 23
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "声音小一点",
+      "KeyWordId": 24
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "上一集",
+      "KeyWordId": 25
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "下一集",
+      "KeyWordId": 26
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "小欧我要回家",
+      "KeyWordId": 27
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "小欧我要去公司",
+      "KeyWordId": 28
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "关闭播报",
+      "KeyWordId": 29
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "关闭导航声音",
+      "KeyWordId": 30
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "打开播报",
+      "KeyWordId": 31
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "打开导航声音",
+      "KeyWordId": 32
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "闭嘴",
+      "KeyWordId": 33
+    },{
+      "DefaultThreshold40": 0,
+      "KeyWord": "退下",
+      "KeyWordId": 34
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "小欧我要拍照",
+      "KeyWordId": 35
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "小欧我要录像",
+      "KeyWordId": 36
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "开始录屏",
+      "KeyWordId": 37
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "停止录屏",
+      "KeyWordId": 38
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "我要截屏",
+      "KeyWordId": 39
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "温度高一点",
+      "KeyWordId": 40
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "温度低一点",
+      "KeyWordId": 41
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "风量大一点",
+      "KeyWordId": 42
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "风量小一点",
+      "KeyWordId": 43
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "退出赛道模式",
+      "KeyWordId": 44
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "小欧打开后视仪",
+      "KeyWordId": 45
+    }
+  ]
+}

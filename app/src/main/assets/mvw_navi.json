@@ -1,0 +1,102 @@
+{
+  "Keywords": [
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "结束导航",
+      "KeyWordId": 0
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "停止导航",
+      "KeyWordId": 1
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "退出导航",
+      "KeyWordId": 2
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "放大地图",
+      "KeyWordId": 3
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "缩小地图",
+      "KeyWordId": 4
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "打开路况",
+      "KeyWordId": 5
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "关闭路况",
+      "KeyWordId": 6
+    }
+
+
+     ,
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "高速优先",
+      "KeyWordId": 7
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "不走高速",
+      "KeyWordId": 8
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "少收费",
+      "KeyWordId": 9
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "避免收费",
+      "KeyWordId": 10
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "躲避拥堵",
+      "KeyWordId": 11
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "规避拥堵",
+      "KeyWordId": 12
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "避免拥堵",
+      "KeyWordId": 13
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "还有多久",
+      "KeyWordId": 14
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "还有多远",
+      "KeyWordId": 15
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "车头朝上",
+      "KeyWordId": 16
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "正北朝上",
+      "KeyWordId": 17
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "查看全局",
+      "KeyWordId": 18
+    }
+  ]
+}

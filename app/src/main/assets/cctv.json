@@ -1,0 +1,15 @@
+{
+  "Keywords": [
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "全屏播放",
+      "KeyWordId": 0
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "退出全屏",
+      "KeyWordId": 1
+    }
+
+  ]
+}

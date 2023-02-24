@@ -1,0 +1,39 @@
+{
+  "list": [
+    {
+      "dimension": [
+        {
+          "field": "radio",
+          "spword": false,
+          "val": ""
+        }
+      ],
+      "id": 10
+    },
+    {
+      "dimension": [
+        {
+          "field": "radio",
+          "spword": false,
+          "val": "返回"
+        }
+      ],
+      "id": 11
+    },
+    {
+      "dimension": [
+        {
+          "field": "radio",
+          "spword": false,
+          "val": "修改唤醒词"
+        }
+      ],
+      "id": 12
+    }
+  ],
+  "nliFieldSearch": [
+    "semantic.slots.poiName",
+    "semantic.slots.poiName2"
+  ],
+  "type": "poi"
+}

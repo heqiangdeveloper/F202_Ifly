@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <!-- 定义一个动画帧，Drawable为img0，持续时间100毫秒 -->
+
+    <item android:drawable="@drawable/trailwork_0001" android:duration="100" />
+    <item android:drawable="@drawable/trailwork_0002" android:duration="100" />
+    <item android:drawable="@drawable/trailwork_0003" android:duration="100" />
+    <item android:drawable="@drawable/trailwork_0004" android:duration="100" />
+    <item android:drawable="@drawable/trailwork_0005" android:duration="100" />
+    <item android:drawable="@drawable/trailwork_0006" android:duration="100" />
+    <item android:drawable="@drawable/trailwork_0007" android:duration="100" />
+    <item android:drawable="@drawable/trailwork_0008" android:duration="100" />
+    <item android:drawable="@drawable/trailwork_0009" android:duration="100" />
+    <item android:drawable="@drawable/trailwork_0010" android:duration="100" />
+    <item android:drawable="@drawable/trailwork_0011" android:duration="100" />
+    <item android:drawable="@drawable/trailwork_0012" android:duration="100" />
+    <item android:drawable="@drawable/trailwork_0013" android:duration="100" />
+    <item android:drawable="@drawable/trailwork_0014" android:duration="100" />
+    <item android:drawable="@drawable/trailwork_0015" android:duration="100" />
+    <item android:drawable="@drawable/trailwork_0016" android:duration="100" />
+    <item android:drawable="@drawable/trailwork_0017" android:duration="100" />
+    <item android:drawable="@drawable/trailwork_0018" android:duration="100" />
+    <item android:drawable="@drawable/trailwork_0019" android:duration="100" />
+    <item android:drawable="@drawable/trailwork_0020" android:duration="100" />
+    <item android:drawable="@drawable/trailwork_0021" android:duration="100" />
+    <item android:drawable="@drawable/trailwork_0022" android:duration="100" />
+    <item android:drawable="@drawable/trailwork_0023" android:duration="100" />
+    <item android:drawable="@drawable/trailwork_0024" android:duration="100" />
+    <item android:drawable="@drawable/trailwork_0025" android:duration="100" />
+    <item android:drawable="@drawable/trailwork_0026" android:duration="100" />
+    <item android:drawable="@drawable/trailwork_0027" android:duration="100" />
+    <item android:drawable="@drawable/trailwork_0028" android:duration="100" />
+    <item android:drawable="@drawable/trailwork_0029" android:duration="100" />
+    <item android:drawable="@drawable/trailwork_0030" android:duration="100" />
+    <item android:drawable="@drawable/trailwork_0031" android:duration="100" />
+    <item android:drawable="@drawable/trailwork_0032" android:duration="100" />
+    <item android:drawable="@drawable/trailwork_0033" android:duration="100" />
+    <item android:drawable="@drawable/trailwork_0034" android:duration="100" />
+    <item android:drawable="@drawable/trailwork_0035" android:duration="100" />
+
+</animation-list>

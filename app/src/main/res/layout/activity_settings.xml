@@ -1,0 +1,151 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_settings"
+    tools:context=".SettingsActivity">
+
+    <ImageView
+        android:id="@+id/iv_exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|top"
+        android:layout_marginStart="46px"
+        android:layout_marginTop="36px"
+        android:focusable="false"
+        android:src="@drawable/selector_btn_close" />
+
+    <ImageView
+        android:id="@+id/iv_home"
+        android:layout_width="236px"
+        android:layout_height="114px"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/selector_home" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="300px"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.chinatsp.ifly.view.ImageViewPlus
+                android:id="@+id/iv_user_head"
+                android:layout_width="90px"
+                android:layout_height="90px"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="118px"
+                android:visibility="gone"
+                android:src="@drawable/ic_user_head" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="110px"
+                android:layout_marginTop="120px"
+                >
+                <TextView
+                    android:id="@+id/tv_voice_recommand"
+                    android:layout_width="match_parent"
+                    android:layout_height="110px"
+                    android:layout_marginLeft="10px"
+                    android:background="@drawable/selector_item_text_bg"
+                    android:gravity="center"
+                    android:text="小欧推荐"
+                    android:textColor="@drawable/selector_main_item_text_color"
+                    android:textSize="36px" />
+
+                <TextView
+                    android:id="@+id/tv_video_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="54px"
+                    android:layout_marginTop="30px"
+                    android:layout_gravity="end"
+                    android:gravity="center"
+                    android:visibility="gone"
+                    android:textColor="@color/video_number_color"
+                    android:textSize="21px"
+                    android:background="@drawable/unread_count"
+                    android:text="2"
+                    />
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="110px"
+                >
+                <TextView
+                    android:id="@+id/tv_voice_command"
+                    android:layout_width="match_parent"
+                    android:layout_height="110px"
+                    android:layout_marginLeft="10px"
+                    android:background="@drawable/selector_item_text_bg"
+                    android:gravity="center"
+                    android:text="所有指令"
+                    android:textColor="@drawable/selector_main_item_text_color"
+                    android:textSize="36px" />
+
+                <TextView
+                    android:id="@+id/tv_command_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="54px"
+                    android:layout_marginTop="30px"
+                    android:layout_gravity="end"
+                    android:gravity="center"
+                    android:visibility="gone"
+                    android:textColor="@color/command_content_title_select"
+                    android:textSize="21px"
+                    android:background="@drawable/unread_count"
+                    android:text="2"
+                    />
+            </FrameLayout>
+
+
+            <TextView
+                android:id="@+id/tv_voice_settings"
+                android:layout_width="match_parent"
+                android:layout_height="110px"
+                android:layout_marginLeft="10px"
+                android:background="@drawable/selector_item_text_bg"
+                android:gravity="center"
+                android:text="设置"
+                android:textColor="@drawable/selector_main_item_text_color"
+                android:textSize="36px" />
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/tv_log"
+                android:layout_width="match_parent"
+                android:layout_height="110px"
+                android:layout_marginLeft="10px"
+                android:background="@drawable/selector_item_text_bg"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@drawable/selector_main_item_text_color"
+                android:textSize="36px" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="2px"
+            android:layout_height="match_parent"
+            android:src="@drawable/gradient_vertical_line"/>
+
+        <FrameLayout
+            android:id="@+id/fl_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <!--剩余宽度为480-->
+      <!--  <fragment
+            android:id="@+id/id_fragment_xiaoo"
+            android:name="com.chinatsp.ifly.module.xiaoo.XiaoOFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+-->
+        <!--<include layout="@layout/layout_floatview_small" />-->
+    </LinearLayout>
+
+</RelativeLayout>

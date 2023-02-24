@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="44px"
+    >
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            >
+
+            <ImageView
+                android:id="@+id/video_cover"
+                android:layout_width="311px"
+                android:layout_height="176px"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/video_play"
+                />
+            <TextView
+                android:id="@+id/is_read"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:layout_marginRight="20px"
+                android:textSize="31px"
+                android:visibility="gone"
+                android:textColor="#ffffff"
+                android:text="未读"
+                />
+
+            <ImageView
+                android:id="@+id/is_new"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/new_video" />
+        </FrameLayout>
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12px"
+        >
+        <ImageView
+            android:id="@+id/iv_video_name"
+            android:layout_width="311px"
+            android:layout_height="50px"
+            />
+        <TextView
+            android:id="@+id/video_name"
+            android:layout_width="311px"
+            android:layout_height="50px"
+            android:textColor="@color/command_content_title_select"
+            android:singleLine="true"
+            android:textSize="32px"
+            android:text="常用免唤醒词"
+            android:gravity="center"
+            android:layout_gravity="bottom|center"
+            />
+    </FrameLayout>
+
+</LinearLayout>

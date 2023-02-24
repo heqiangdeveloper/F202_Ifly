@@ -1,0 +1,149 @@
+{
+  "Keywords": [
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "你好小欧",
+      "KeyWordId": 0
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "小欧你好",
+      "KeyWordId": 1
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "你好欧尚",
+      "KeyWordId": 2
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "欧尚你好",
+      "KeyWordId": 3
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "回到主页",
+      "KeyWordId": 4
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "回到主界面",
+      "KeyWordId": 5
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "回到首页",
+      "KeyWordId": 6
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "回首页",
+      "KeyWordId": 7
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "回主页",
+      "KeyWordId": 8
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "回主界面",
+      "KeyWordId": 9
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "首页",
+      "KeyWordId": 10
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "主页",
+      "KeyWordId": 11
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "主界面",
+      "KeyWordId": 12
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "退出",
+      "KeyWordId": 13
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "闭嘴",
+      "KeyWordId": 14
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "暂停播放",
+      "KeyWordId": 15
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "停止播放",
+      "KeyWordId": 16
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "开始播放",
+      "KeyWordId": 17
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "上一曲",
+      "KeyWordId": 18
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "上一首",
+      "KeyWordId": 19
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "上一台",
+      "KeyWordId": 20
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "上一个",
+      "KeyWordId": 21
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "下一曲",
+      "KeyWordId": 22
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "下一首",
+      "KeyWordId": 23
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "下一台",
+      "KeyWordId": 24
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "下一个",
+      "KeyWordId": 25
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "接听",
+      "KeyWordId": 26
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "挂断",
+      "KeyWordId": 27
+    },
+    {
+      "DefaultThreshold40": 0,
+      "KeyWord": "打开空调",
+      "KeyWordId": 28
+    }
+  ]
+}
